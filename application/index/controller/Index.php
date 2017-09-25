@@ -27,6 +27,10 @@ class Index {
     }
 
     private function saveFile() {
+      $myfile = fopen("newfile.txt", "a+") or die("Unable to open file!");
+      $txt = "Bill Gates\n";
+      fwrite($myfile, $txt);
+      fclose($myfile);
       $data = file_get_contents('php://input');
       var_dump(urldecode($data));die;
     }
