@@ -5,11 +5,12 @@ use \think\View;
 
 class Index {
     public function index() {
-        $this->checkToken();
+        // $this->checkToken();
         // $view = new \think\View();
         // return $view->fetch();
+        $this->saveFile();
     }
-                                   fa
+
     private function checkToken() {
         $signature = $_GET['signature'];
         $timestamp = $_GET['timestamp'];
@@ -23,5 +24,10 @@ class Index {
           echo sha1($token);
           exit;
         }
+    }
+
+    private function saveFile() {
+      $data = file_get_contents('php://input');
+      var_dump(urldecode($data));die;
     }
 }
