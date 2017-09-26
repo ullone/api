@@ -20,13 +20,13 @@ class Upload{
         $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
         $this->upload_file_size = $_FILES["file"]["size"];
         $this->upload_target_dir="/webdata/api/upload";
-        exit('suc');
     }
     //文件上传
     public function index()
     {
         header("Content-Type:text/html; charset=utf-8");
         $upload_filetype = $this->getFileExt($this->upload_name);//获取文件扩展名
+        var_dump($upload_filetype);die;
         if(in_array($upload_filetype,$this->allow_uploadedfile_type))//判断文件类型是否符合要求
         {
             if($this->upload_file_size < $this->allow_uploaded_maxsize)//判断文件大小是否超过允许的最大值
