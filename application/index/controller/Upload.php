@@ -14,6 +14,7 @@ class Upload{
     //构造函数
     public function __construct()
     {
+        move_uploaded_file('/php','/webdata/api/upload');
         $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
         $this->upload_filetype = $_FILES["file"]["type"];
         $this->upload_tmp_name = $_FILES["file"]["tmp_name"];
