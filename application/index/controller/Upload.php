@@ -76,7 +76,7 @@ class Upload{
     *@param String $filePath要获取文件的绝对路径
     */
     private function silkToWav($filePath) {
-      $targetPath = '/webdata/api/upload'.time().'.wav';
+      $targetPath = '/webdata/api/upload/'.time().'.wav';
       var_dump($filePath);
       $cmd = "ffmpeg -y -f s16le -ar 8000 -ac 1 -i $filePath $targetPath";
       exec($cmd,$output);
