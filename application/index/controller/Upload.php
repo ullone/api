@@ -36,8 +36,8 @@ class Upload{
                     chmod($this->upload_target_dir,0777);//改权限
                 }
                 $this->upload_final_name = date("YmdHis").rand(0,100).'.'.$upload_filetype;//生成随机文件名
-                var_dump($this->upload_final_name);die;
                 $this->upload_target_path = $this->upload_target_dir."/".$this->upload_final_name;//文件上传目标目录
+                var_dump($this->upload_target_path);var_dump($this->upload_tmp_name);die;
                 if(!move_uploaded_file($this->upload_tmp_name,$this->upload_target_path))//文件移动失败
                 {
                     echo "<font color=red>文件上传失败！</font>";
