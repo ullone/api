@@ -48,8 +48,7 @@ class Upload{
                 else
                 {
                   //上传成功，将.silk文件转换为.wav格式;
-                  $this->silkToWav($this->upload_target_dir,$this->upload_final_name);
-                }
+                  $this->silkToWav($this->upload_target_path);
             }
             else
             {
@@ -73,7 +72,12 @@ class Upload{
     /**
     *将.silk格式的文件转换成.wav格式
     *@param String $filePath要获取文件的绝对路径
-    *@param String $fileName要获取文件的名称
     */
+    private function silkToWav($filePath) {
+      var_dump($filePath);
+      $cmd = 'ffmpeg -y -f s16le -ar 8000 -ac 1 -i 2017092616481763.silk output.wav';
+      exec($cmd,$output);
+      var_dump($output);die;
+    }
 }
 ?>
