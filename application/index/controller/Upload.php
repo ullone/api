@@ -21,6 +21,7 @@ class Upload{
         $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
         $this->upload_file_size = $_FILES["file"]["size"];
         $this->upload_target_dir="/webdata/api/upload";
+        var_dump($_FILES["file"]["error"]);die;
     }
     //文件上传
     public function index()
