@@ -24,6 +24,7 @@ class Upload{
     //文件上传
     public function index()
     {
+      exit('success');
         header("Content-Type:text/html; charset=utf-8");
         $upload_filetype = $this->getFileExt($this->upload_name);//获取文件扩展名
         if(in_array($upload_filetype,$this->allow_uploadedfile_type))//判断文件类型是否符合要求
