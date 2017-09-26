@@ -40,6 +40,7 @@ class Upload{
                 if(!move_uploaded_file($this->upload_tmp_name,$this->upload_target_path))//文件移动失败
                 {
                     echo "<font color=red>文件上传失败！</font>";
+                    exit('success');
                 }
                 else
                 {
