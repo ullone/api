@@ -14,7 +14,7 @@ class Upload{
     //构造函数
     public function __construct()
     {
-        $this->silkToWav();
+        // $this->silkToWav();
         // var_dump(move_uploaded_file('/tmp/test.txt','/webdata/api/upload/a.txt'));die;
         // move_uploaded_file('/php','/webdata/api/upload');die
         $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
@@ -50,6 +50,7 @@ class Upload{
                 {
                   //上传成功，将.silk文件转换为.wav格式;
                   $this->silkToWav($this->upload_target_path);
+                }
             }
             else
             {
