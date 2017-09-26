@@ -2,13 +2,15 @@
 namespace app\index\controller;
 
 use \think\View;
+use app\index\controller\Upload;
 
 class Index {
     public function index() {
         // $this->checkToken();
         // $view = new \think\View();
-        // return $view->fetch();
-        $this->saveFile();
+        // return $view->fetch();\
+        $upload = new Upload();
+        $upload->index();
     }
 
     private function checkToken() {
@@ -24,17 +26,5 @@ class Index {
           echo sha1($token);
           exit;
         }
-    }
-
-    private function saveFile() {
-      $result = $_FILES["file"];
-      // $result = file_get_contents($result);
-      var_dump($result);var_dump('test');die;
-      // $myfile = fopen("newfile.txt", "a+") or die("Unable to open file!");
-      // $txt = "Bill Gates\n";
-      // fwrite($myfile, $txt);
-      // fclose($myfile);
-      // $data = file_get_contents('php://input');
-      // var_dump(urldecode($data));die;
     }
 }
