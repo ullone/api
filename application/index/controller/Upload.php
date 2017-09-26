@@ -14,7 +14,6 @@ class Upload{
     //构造函数
     public function __construct()
     {
-      echo phpinfo();die;
         // move_uploaded_file('/php','/webdata/api/upload');die
         $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
         $this->upload_filetype = $_FILES["file"]["type"];
@@ -22,11 +21,11 @@ class Upload{
         $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
         $this->upload_file_size = $_FILES["file"]["size"];
         $this->upload_target_dir="/webdata/api/upload";
-        var_dump($_FILES["file"]["size"]);die;
     }
     //文件上传
     public function index()
     {
+        var_dump(is_file($this->upload_tmp_name));die;
         header("Content-Type:text/html; charset=utf-8");
         $upload_filetype = $this->getFileExt($this->upload_name);//获取文件扩展名
         if(in_array($upload_filetype,$this->allow_uploadedfile_type))//判断文件类型是否符合要求
