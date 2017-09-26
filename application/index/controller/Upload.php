@@ -46,6 +46,7 @@ class Upload{
                 else
                 {
                     echo "<font color=green>文件上传成功！</font>";
+                    exit('fail');
                 }
             }
             else
