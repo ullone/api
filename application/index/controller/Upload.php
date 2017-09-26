@@ -26,7 +26,6 @@ class Upload{
     {
         header("Content-Type:text/html; charset=utf-8");
         $upload_filetype = $this->getFileExt($this->upload_name);//获取文件扩展名
-        var_dump($upload_filetype);die;
         if(in_array($upload_filetype,$this->allow_uploadedfile_type))//判断文件类型是否符合要求
         {
             if($this->upload_file_size < $this->allow_uploaded_maxsize)//判断文件大小是否超过允许的最大值
@@ -36,6 +35,7 @@ class Upload{
                     mkdir($this->upload_target_dir);//创建文件上传目录
                     chmod($this->upload_target_dir,0777);//改权限
                 }
+                var_dump($upload_filetype);die;
                 $this->upload_final_name = date("YmdHis").rand(0,100).'.'.$upload_filetype;//生成随机文件名
                 $this->upload_target_path = $this->upload_target_dir."/".$this->upload_final_name;//文件上传目标目录
                 if(!move_uploaded_file($this->upload_tmp_name,$this->upload_target_path))//文件移动失败
