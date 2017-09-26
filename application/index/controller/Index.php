@@ -28,7 +28,7 @@ class Index {
 
     private function saveFile() {
       $result = $_FILES["file"];
-      $result = file_get_contents($result);
+      // $result = file_get_contents($result);
       var_dump($result);var_dump('test');die;
       // $myfile = fopen("newfile.txt", "a+") or die("Unable to open file!");
       // $txt = "Bill Gates\n";
