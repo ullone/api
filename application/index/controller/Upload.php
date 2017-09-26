@@ -37,15 +37,12 @@ class Upload{
                 }
                 $this->upload_final_name = date("YmdHis").rand(0,100).'.'.$upload_filetype;//生成随机文件名
                 $this->upload_target_path = $this->upload_target_dir."/".$this->upload_final_name;//文件上传目标目录
-                exit();
                 if(!move_uploaded_file($this->upload_tmp_name,$this->upload_target_path))//文件移动失败
                 {
-                    echo "<font color=red>文件上传失败！</font>";
                     exit('success');
                 }
                 else
                 {
-                    echo "<font color=green>文件上传成功！</font>";
                     exit('fail');
                 }
             }
