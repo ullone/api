@@ -1,8 +1,6 @@
 <?php
-/**
- * @title 文件上传示例
- * @author FeoniX
- */
+namespace app\index\controller;
+
 class Upload{
     public $upload_name;                    //上传文件名
     public $upload_tmp_name;                //上传临时文件名
