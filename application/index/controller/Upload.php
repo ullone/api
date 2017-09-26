@@ -77,7 +77,7 @@ class Upload{
     */
     private function silkToWav($filePath) {
       var_dump($filePath);
-      $cmd = 'ffmpeg -y -f s16le -ar 8000 -ac 1 -i 2017092616481763.silk output.wav';
+      $cmd = "ffmpeg -y -f s16le -ar 8000 -ac 1 -i $filePath /webdata/api/upload/output.wav";
       exec($cmd,$output);
       var_dump($output);die;
     }
