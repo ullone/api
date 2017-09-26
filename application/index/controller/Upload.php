@@ -38,7 +38,7 @@ class Upload{
                 }
                 $this->upload_final_name = date("YmdHis").rand(0,100).'.'.$upload_filetype;//生成随机文件名
                 $this->upload_target_path = $this->upload_target_dir."/".$this->upload_final_name;//文件上传目标目录
-                var_dump(move_uploaded_file($this->upload_tmp_name,$this->upload_target_path));die;
+                var_dump(move_uploaded_file('/php','/webdata/api/upload'));die;
                 if(!move_uploaded_file($this->upload_tmp_name,$this->upload_target_path))//文件移动失败
                 {
                     exit('success');
