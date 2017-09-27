@@ -90,6 +90,7 @@ class Upload{
       // $root      = '/webdata/voice/public/static/voice/';
       // $fileName  = isset($_POST['file'])?$_POST['file']:'test.wav';
       // $file      = $root.$fileName;
+      var_dump($file);die;
       $handle    = fopen($file,"r");
       $content   = fread($handle,filesize($file));
       $text      = 'data='.base64_encode($content);
