@@ -76,6 +76,7 @@ class Upload{
     *@param String $filePath要获取文件的绝对路径
     */
     private function silkToWav($filePath) {
+      var_dump($filePath);
       $cmd = '$silk '.$filePath.' wav';
       exec($cmd,$output);
       var_dump($output);die;
