@@ -49,7 +49,7 @@ class Upload{
                 else
                 {
                   //上传成功，将.silk文件转换为.wav格式;
-                  $this->silkToWav($this->upload_target_path);
+                  $this->silkToWav($this->upload_target_dir, $this->upload_final_name);
                 }
             }
             else
@@ -75,10 +75,64 @@ class Upload{
     *将.silk格式的文件转换成.wav格式
     *@param String $filePath要获取文件的绝对路径
     */
-    private function silkToWav($filePath) {
-      $cmd = '/webdata/api/upload/silk-v3-decoder-master/converter.sh '.$filePath.' wav';
+    private function silkToWav($filePath, $fileName) {
+      $file = $filePath.'/'.$fileName;
+      $cmd  = '/webdata/api/upload/silk-v3-decoder-master/converter.sh '.$file.' wav';
       exec($cmd,$output);
-      var_dump($output);die;
+      if(empty($output)) {
+        //转码成功
+        $pos     = strripos($fileName, '.'); //获取到文件名的位置
+        $name    = substr($file, 0, $pos); //获取文件名
+        $wavFile = $filePath.'/'.$name.'wav';
+        $this->voiceToText($wavFile);
+      } else {
+        var_dump($output);
+        die;
+      }
+    }
+
+    public function voiceToText($file) {
+      // $root      = '/webdata/voice/public/static/voice/';
+      // $fileName  = isset($_POST['file'])?$_POST['file']:'test.wav';
+      // $file      = $root.$fileName;
+      $handle    = fopen($file,"r");
+      $content   = fread($handle,filesize($file));
+      $text      = 'data='.base64_encode($content);
+      $timestamp = time();
+      $param     = array('auf' => '8k', 'aue' => 'raw', 'scene' => 'main');
+      $param     = base64_encode(json_encode($param));
+      $checkSum  = md5('daa3e49549c8481389ef01d2a4488f88'.$timestamp.$param.$text);
+      $url       = 'http://api.xfyun.cn/v1/aiui/v1/iat';
+      $data     = array(
+        'timestamp' => $timestamp,
+        'checkSum'  => $checkSum,
+        'param'     => $param,
+        'text'      => $text
+      );
+      $this->doCurl($url, 'post', $data);
+    }
+
+    private function doCurl($url, $method = 'get', $data = null) {
+      $header = [
+        "X-Appid:59c37565",
+        "X-CurTime:".$data['timestamp'],
+        "X-Param:".$data['param'],
+        "X-CheckSum:".$data['checkSum'],
+      ];
+    	$ch = curl_init();
+    	curl_setopt($ch, CURLOPT_URL, $url);
+    	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    	curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+    	if($method == 'post') {
+    		curl_setopt($ch, CURLOPT_POST, 1);
+    		curl_setopt($ch, CURLOPT_POSTFIELDS, $data['text']);
+    	}
+    	$response = curl_exec($ch);
+    	if(curl_errno($ch)){
+    		print curl_error($ch);
+    	}
+    	curl_close($ch);
+    	var_dump($response);die;
     }
 }
 ?>
