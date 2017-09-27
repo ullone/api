@@ -83,7 +83,7 @@ class Upload{
       $pos     = strripos($fileName, '.'); //获取到文件名的位置
       $name    = substr($fileName, 0, $pos); //获取文件名
       $wavFile = $filePath.'/'.$name.'wav';
-      var_dump($mavFile);die;
+      var_dump($wavFile);die;
       $this->voiceToText($wavFile);
     }
 
