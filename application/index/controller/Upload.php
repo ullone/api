@@ -22,7 +22,7 @@ class Upload{
         $this->upload_tmp_name = $_FILES["file"]["tmp_name"];
         $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
         $this->upload_file_size = $_FILES["file"]["size"];
-        $this->upload_target_dir="/webdata/api/upload";
+        $this->upload_target_dir="/webdata/api/upload/silk-v3-decoder-master/upload";
     }
     //文件上传
     public function index()
@@ -76,9 +76,7 @@ class Upload{
     *@param String $filePath要获取文件的绝对路径
     */
     private function silkToWav($filePath) {
-      $targetPath = '/webdata/api/upload/'.time().'.wav';
-      var_dump($filePath);
-      $cmd = "ffmpeg -y -f s16le -ar 8000 -ac 1 -i $filePath $targetPath";
+      $cmd = '$silk '.$filePath.' wav';
       exec($cmd,$output);
       var_dump($output);die;
     }
