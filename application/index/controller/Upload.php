@@ -79,16 +79,11 @@ class Upload{
       $file = $filePath.'/'.$fileName;
       $cmd  = '/webdata/api/upload/silk-v3-decoder-master/converter.sh '.$file.' wav';
       exec($cmd,$output);
-      if(empty($output)) {
-        //转码成功
-        $pos     = strripos($fileName, '.'); //获取到文件名的位置
-        $name    = substr($file, 0, $pos); //获取文件名
-        $wavFile = $filePath.'/'.$name.'wav';
-        $this->voiceToText($wavFile);
-      } else {
-        var_dump($output);
-        die;
-      }
+      //转码成功
+      $pos     = strripos($fileName, '.'); //获取到文件名的位置
+      $name    = substr($file, 0, $pos); //获取文件名
+      $wavFile = $filePath.'/'.$name.'wav';
+      $this->voiceToText($wavFile);
     }
 
     public function voiceToText($file) {
