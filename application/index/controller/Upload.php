@@ -128,8 +128,9 @@ class Upload{
     	}
     	curl_close($ch);
       $data = json_decode($response, true);
+      return $data;exit();
       // $data = json_encode($data, JSON_UNESCAPED_UNICODE);
-    	echo $data;die;
+    	// var_dump($data);die;
     }
 }
 ?>
