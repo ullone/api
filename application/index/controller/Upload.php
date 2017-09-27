@@ -76,14 +76,13 @@ class Upload{
     *@param String $filePath要获取文件的绝对路径
     */
     private function silkToWav($filePath, $fileName) {
-      var_dump($fileName);die;
       $file = $filePath.'/'.$fileName;
       $cmd  = '/webdata/api/upload/silk-v3-decoder-master/converter.sh '.$file.' wav';
       exec($cmd,$output);
       //转码成功
       $pos     = strripos($fileName, '.'); //获取到文件名的位置
-      $name    = substr($file, 0, $pos); //获取文件名
-      $wavFile = $filePath.'/'.$name.'wav';
+      $name    = substr($fileName, 0, $pos); //获取文件名
+      $wavFile = $filePath.'/'.'2017092715542386.wav';//$name.'wav';
       $this->voiceToText($wavFile);
     }
 
