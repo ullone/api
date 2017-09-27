@@ -82,6 +82,7 @@ class Upload{
       //转码成功
       $pos     = strripos($fileName, '.'); //获取到文件名的位置
       $name    = substr($file, 0, $pos); //获取文件名
+            var_dump($name);die;
       $wavFile = $filePath.'/'.$name.'wav';
       $this->voiceToText($wavFile);
     }
@@ -90,7 +91,6 @@ class Upload{
       // $root      = '/webdata/voice/public/static/voice/';
       // $fileName  = isset($_POST['file'])?$_POST['file']:'test.wav';
       // $file      = $root.$fileName;
-      var_dump($file);die;
       $handle    = fopen($file,"r");
       $content   = fread($handle,filesize($file));
       $text      = 'data='.base64_encode($content);
