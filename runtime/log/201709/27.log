@@ -1,0 +1,64 @@
+---------------------------------------------------------------
+[ 2017-09-27T09:31:33+08:00 ] 104.238.148.249 157.119.232.12 POST /
+[ info ] api.ullone.com/ [运行时间：0.285430s][吞吐率：3.50req/s] [内存消耗：144.97kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '610931fdfdf7cd95c60e5c83b37befa8',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'MicroMessenger/6.5.13.1100 NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '117.136.40.188',
+  'x-real-ip' => '117.136.40.188',
+  'client-ip' => '117.136.40.188',
+  'content-length' => '2730',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1506475891647',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.12',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T09:34:49+08:00 ] 104.238.148.249 157.119.232.9 POST /
+[ info ] api.ullone.com/ [运行时间：0.145086s][吞吐率：6.89req/s] [内存消耗：144.98kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '38eb7ea73f039ca1d83d348c8b9e65e1',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'MicroMessenger/6.5.13.1100 NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '117.136.40.188',
+  'x-real-ip' => '117.136.40.188',
+  'client-ip' => '117.136.40.188',
+  'content-length' => '5307',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1506476087720',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.12',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
