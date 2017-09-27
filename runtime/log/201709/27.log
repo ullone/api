@@ -286,3 +286,197 @@
 )
 [ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T15:54:23+08:00 ] 104.238.148.249 157.119.232.13 POST /
+[ info ] api.ullone.com/ [运行时间：0.082281s][吞吐率：12.15req/s] [内存消耗：135.79kb] [文件加载：32]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c262331a5d7cd6aacd221207ae7504b0',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'MicroMessenger/6.5.13.1100 NetType/4G Language/zh_CN',
+  'x-forwarded-for' => '117.136.39.209',
+  'x-real-ip' => '117.136.39.209',
+  'client-ip' => '117.136.39.209',
+  'content-length' => '4229',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1506498860916',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.12',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]fopen(/webdata/api/upload/silk-v3-decoder-master/upload//webdata/api/uplwav): failed to open stream: No such file or directory[/webdata/api/application/index/controller/Upload.php:93]
+---------------------------------------------------------------
+[ 2017-09-27T15:57:26+08:00 ] 104.238.148.249 157.119.232.5 POST /
+[ info ] api.ullone.com/ [运行时间：1.015772s][吞吐率：0.98req/s] [内存消耗：146.74kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'ca565244c3cc69752eb9b00218d23aeb',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.12',
+  'x-forwarded-for' => '183.15.240.229',
+  'x-real-ip' => '183.15.240.229',
+  'client-ip' => '183.15.240.229',
+  'content-length' => '19310',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------664976794738985696473711',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.12',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T15:58:52+08:00 ] 104.238.148.249 157.119.232.6 POST /
+[ info ] api.ullone.com/ [运行时间：1.016048s][吞吐率：0.98req/s] [内存消耗：146.65kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'cb66fa287f21586b896854b286ba6347',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.12',
+  'x-forwarded-for' => '183.15.240.229',
+  'x-real-ip' => '183.15.240.229',
+  'client-ip' => '183.15.240.229',
+  'content-length' => '44110',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------806259224529905517992534',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.12',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T15:59:54+08:00 ] 104.238.148.249 157.119.232.8 POST /
+[ info ] api.ullone.com/ [运行时间：1.018664s][吞吐率：0.98req/s] [内存消耗：135.79kb] [文件加载：32]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'af7e4398df3db6d9725554807796a1d6',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.12',
+  'x-forwarded-for' => '183.15.240.229',
+  'x-real-ip' => '183.15.240.229',
+  'client-ip' => '183.15.240.229',
+  'content-length' => '13538',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------706297696130719398581555',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.12',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]fopen(/webdata/api/upload/silk-v3-decoder-master/upload//webdata/api/uplwav): failed to open stream: No such file or directory[/webdata/api/application/index/controller/Upload.php:94]
+---------------------------------------------------------------
+[ 2017-09-27T16:00:31+08:00 ] 104.238.148.249 157.119.232.5 POST /
+[ info ] api.ullone.com/ [运行时间：0.003612s][吞吐率：276.85req/s] [内存消耗：145.77kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'f0e76f81cae84285e20cc0c3ea413040',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.12',
+  'x-forwarded-for' => '183.15.240.229',
+  'x-real-ip' => '183.15.240.229',
+  'client-ip' => '183.15.240.229',
+  'content-length' => '23702',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------383547098057271887207068',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.12',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T16:05:00+08:00 ] 104.238.148.249 157.119.232.12 POST /
+[ info ] api.ullone.com/ [运行时间：3.878542s][吞吐率：0.26req/s] [内存消耗：448.66kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'bc70d965f13befb9c8dda1c5dfe2044b',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.12',
+  'x-forwarded-for' => '183.15.240.229',
+  'x-real-ip' => '183.15.240.229',
+  'client-ip' => '183.15.240.229',
+  'content-length' => '20962',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------061553678503818679909067',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.12',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
