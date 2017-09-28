@@ -73,9 +73,13 @@ class Upload{
     *@param String $filePath要获取文件的绝对路径
     */
     private function silkToWav($filePath, $fileName) {
+      $tmpPath = '/webdata/api/upload/silk-v3-decoder-master/';
       $file = $filePath.'/'.$fileName;
-      $cmd  = '/webdata/api/upload/silk-v3-decoder-master/converter.sh '.$file.' wav';
+      $cmd  = $tmpPath.'converter.sh '.$file.' wav';
+      $name = date("YmdHis").'wav';
       exec($cmd,$output);
+      $cmd  = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $tmpPath"."upload/".$name;
+
       //转码成功
       $pos     = strripos($fileName, '.'); //获取到文件名的位置
       $name    = substr($fileName, 0, $pos); //获取文件名
@@ -84,7 +88,7 @@ class Upload{
     }
 
     public function voiceToText($file) {
-      $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/abc.wav';
+      $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/def.wav';
       // header( "Content-type: txt");
       $handle    = fopen($file,"rb");
       $content   = fread($handle,filesize($file));
