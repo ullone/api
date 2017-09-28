@@ -84,7 +84,7 @@ class Upload{
     }
 
     public function voiceToText($file) {
-      $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/ullone.wav';
+      $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/abc.wav';
       // header( "Content-type: txt");
       $handle    = fopen($file,"rb");
       $content   = fread($handle,filesize($file));
@@ -93,7 +93,7 @@ class Upload{
       $tmp       = base64_encode($content);
       $text      = 'data='.$tmp;
       $timestamp = time();
-      $param     = array('auf' => '8k', 'aue' => 'raw', 'scene' => 'main');
+      $param     = array('auf' => '16k', 'aue' => 'raw', 'scene' => 'main');
       $param     = base64_encode(json_encode($param));
       $checkSum  = md5('daa3e49549c8481389ef01d2a4488f88'.$timestamp.$param.$text);
       $url       = 'http://api.xfyun.cn/v1/aiui/v1/iat';
