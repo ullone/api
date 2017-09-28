@@ -14,12 +14,12 @@ class Upload{
     //构造函数
     public function __construct()
     {
-        $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
-        $this->upload_filetype = $_FILES["file"]["type"];
-        $this->upload_tmp_name = $_FILES["file"]["tmp_name"];
-        $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
-        $this->upload_file_size = $_FILES["file"]["size"];
-        $this->upload_target_dir="/webdata/api/upload/silk-v3-decoder-master/upload";
+        // $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
+        // $this->upload_filetype = $_FILES["file"]["type"];
+        // $this->upload_tmp_name = $_FILES["file"]["tmp_name"];
+        // $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
+        // $this->upload_file_size = $_FILES["file"]["size"];
+        // $this->upload_target_dir="/webdata/api/upload/silk-v3-decoder-master/upload";
     }
     //文件上传
     public function index()
