@@ -74,17 +74,16 @@ class Upload{
     */
     public function silkToWav($filePath, $fileName) {
       $filePath = 'webdata/api/upload/silk-v3-decoder-master/upload';
-      $fileName = '2017092720320224.silk';
+      $fileName = 'test.silk';
       $tmpPath = '/webdata/api/upload/silk-v3-decoder-master/';
       $file = $filePath.'/'.$fileName;
       $cmd  = $tmpPath.'converter.sh '.$file.' wav';
-      $name = date("YmdHis").'wav';
+      $name = date("YmdHis").'.wav';
       exec($cmd, $output);
       $cmd  = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $filePath".$name;
       exec($cmd, $output);
       //转码成功
       $wavFile = $filePath.'/'.$name;
-      var_dump($wavFile);die;
       $this->voiceToText($wavFile);
     }
 
