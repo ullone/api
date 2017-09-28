@@ -89,6 +89,7 @@ class Upload{
     }
 
     public function voiceToText($file) {
+      $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/def.wav';
       $handle    = fopen($file,"rb");
       $content   = fread($handle,filesize($file));
       $tmp       = base64_encode($content);

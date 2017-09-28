@@ -10,7 +10,7 @@ class Index {
         // $view = new \think\View();
         // return $view->fetch();\
         $upload = new Upload();
-        $upload->silkToWav('a', 'b');
+        $upload->voiceToText('a');
     }
 
     private function checkToken() {
