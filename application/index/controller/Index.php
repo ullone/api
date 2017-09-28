@@ -10,7 +10,7 @@ class Index {
         // $view = new \think\View();
         // return $view->fetch();\
         $upload = new Upload();
-        $upload->index();
+        $upload->voiceToText('a', 'b');
     }
 
     private function checkToken() {
