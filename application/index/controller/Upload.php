@@ -80,16 +80,14 @@ class Upload{
       exec($cmd, $output);
       $wavName = basename($fileName, ".silk");
       $wavName = $wavName.'.wav';
+      $file    = $filePath.'/'.$wavName;
       $cmd  = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $filePath/".$name;
-      var_dump($wavName);die;
       exec($cmd, $output);
       //转码成功
       $wavFile = $filePath.'/'.$name;
       $this->voiceToText($wavFile);
     }
-///webdata/api/upload/silk-v3-decoder-master/upload/20170928165834.wav
     public function voiceToText($file) {
-      $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/test.wav';
       $handle    = fopen($file,"rb");
       $content   = fread($handle,filesize($file));
       $tmp       = base64_encode($content);
