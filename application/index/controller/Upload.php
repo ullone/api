@@ -88,7 +88,7 @@ class Upload{
       // header( "Content-type: txt");
       $handle    = fopen($file,"rb");
       $content   = fread($handle,filesize($file));
-      var_dump($content);die;
+      echo($content);die;
       $tmp       = base64_encode($content);
       $text      = 'data='.$tmp;
       $timestamp = time();
