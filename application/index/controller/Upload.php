@@ -87,7 +87,8 @@ class Upload{
       $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/2017092720320224.wav';
       $handle    = fopen($file,"r");
       $content   = fread($handle,filesize($file));
-      var_dump($content);die;
+      $tmp       = base64_encode($content);
+      var_dump($tmp);die;
       $text      = 'data='.base64_encode($content);
       $timestamp = time();
       $param     = array('auf' => '8k', 'aue' => 'raw', 'scene' => 'main');
