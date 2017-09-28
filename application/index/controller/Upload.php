@@ -14,12 +14,12 @@ class Upload{
     //构造函数
     public function __construct()
     {
-        // $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
-        // $this->upload_filetype = $_FILES["file"]["type"];
-        // $this->upload_tmp_name = $_FILES["file"]["tmp_name"];
-        // $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
-        // $this->upload_file_size = $_FILES["file"]["size"];
-        // $this->upload_target_dir="/webdata/api/upload/silk-v3-decoder-master/upload";
+        $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
+        $this->upload_filetype = $_FILES["file"]["type"];
+        $this->upload_tmp_name = $_FILES["file"]["tmp_name"];
+        $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
+        $this->upload_file_size = $_FILES["file"]["size"];
+        $this->upload_target_dir="/webdata/api/upload/silk-v3-decoder-master/upload";
     }
     //文件上传
     public function index()
@@ -77,23 +77,17 @@ class Upload{
       $file = $filePath.'/'.$fileName;
       $cmd  = $tmpPath.'converter.sh '.$file.' wav';
       $name = date("YmdHis").'wav';
-      exec($cmd,$output);
-      $cmd  = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $tmpPath"."upload/".$name;
-
+      exec($cmd, $output);
+      $cmd  = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $filePath".$name;
+      exec($cmd, $output);
       //转码成功
-      $pos     = strripos($fileName, '.'); //获取到文件名的位置
-      $name    = substr($fileName, 0, $pos); //获取文件名
-      $wavFile = $filePath.'/'.$name.'.wav';
+      $wavFile = $filePath.'/'.$name;
       $this->voiceToText($wavFile);
     }
 
     public function voiceToText($file) {
-      $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/abc.wav';
-      // header( "Content-type: txt");
       $handle    = fopen($file,"rb");
       $content   = fread($handle,filesize($file));
-      // $content   = hex2bin($content);
-      // echo $content;die;
       $tmp       = base64_encode($content);
       $text      = 'data='.$tmp;
       $timestamp = time();
