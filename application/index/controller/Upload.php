@@ -72,7 +72,7 @@ class Upload{
     *将.silk格式的文件转换成.wav格式
     *@param String $filePath要获取文件的绝对路径
     */
-    private function silkToWav($filePath, $fileName) {
+    public function silkToWav($filePath, $fileName) {
       $filePath = 'webdata/api/upload/silk-v3-decoder-master/upload';
       $fileName = '2017092720320224.silk';
       $tmpPath = '/webdata/api/upload/silk-v3-decoder-master/';
