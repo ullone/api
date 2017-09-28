@@ -78,7 +78,7 @@ class Upload{
       $cmd  = $tmpPath.'converter.sh '.$file.' wav';
       $name = date("YmdHis").'.wav';
       exec($cmd, $output);
-      $wavName = basename($path,".silk");
+      $wavName = basename($fileName, ".silk");
       $wavName = $wavName.'.wav';
       $cmd  = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $filePath/".$name;
       var_dump($wavName);die;
