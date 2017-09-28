@@ -20,7 +20,7 @@ class Upload{
         // $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
         // $this->upload_file_size = $_FILES["file"]["size"];
         // $this->upload_target_dir="/webdata/api/upload/silk-v3-decoder-master/upload";
-    } 
+    }
     //文件上传
     public function index()
     {
@@ -86,7 +86,7 @@ class Upload{
     public function voiceToText($file) {
       $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/2017092720320224.wav';
       // header( "Content-type: txt");
-      $handle    = fopen($file,"b");
+      $handle    = fopen($file,"rb");
       $content   = fread($handle,filesize($file));
       var_dump($content);die;
       $tmp       = base64_encode($content);
