@@ -78,6 +78,7 @@ class Upload{
       $tmpPath = '/webdata/api/upload/silk-v3-decoder-master/';
       $file = $filePath.'/'.$fileName;
       $cmd  = $tmpPath.'converter.sh '.$file.' wav';
+      var_dump($cmd);die;
       $name = date("YmdHis").'.wav';
       exec($cmd, $output);
       $cmd  = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $filePath".$name;
