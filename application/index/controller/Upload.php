@@ -14,15 +14,12 @@ class Upload{
     //构造函数
     public function __construct()
     {
-        // $this->silkToWav();
-        // var_dump(move_uploaded_file('/tmp/test.txt','/webdata/api/upload/a.txt'));die;
-        // move_uploaded_file('/php','/webdata/api/upload');die
-        $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
-        $this->upload_filetype = $_FILES["file"]["type"];
-        $this->upload_tmp_name = $_FILES["file"]["tmp_name"];
-        $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
-        $this->upload_file_size = $_FILES["file"]["size"];
-        $this->upload_target_dir="/webdata/api/upload/silk-v3-decoder-master/upload";
+        // $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
+        // $this->upload_filetype = $_FILES["file"]["type"];
+        // $this->upload_tmp_name = $_FILES["file"]["tmp_name"];
+        // $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
+        // $this->upload_file_size = $_FILES["file"]["size"];
+        // $this->upload_target_dir="/webdata/api/upload/silk-v3-decoder-master/upload";
     }
     //文件上传
     public function index()
@@ -87,11 +84,10 @@ class Upload{
     }
 
     public function voiceToText($file) {
-      // $root      = '/webdata/voice/public/static/voice/';
-      // $fileName  = isset($_POST['file'])?$_POST['file']:'test.wav';
-      // $file      = $root.$fileName;
+      $file      = '/webdata/api/upload/silk-v3-decoder-master/upload/2017092720320224.wav';
       $handle    = fopen($file,"r");
       $content   = fread($handle,filesize($file));
+      var_dump($content);die;
       $text      = 'data='.base64_encode($content);
       $timestamp = time();
       $param     = array('auf' => '8k', 'aue' => 'raw', 'scene' => 'main');
