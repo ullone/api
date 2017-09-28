@@ -91,7 +91,7 @@ class Upload{
       // $content   = hex2bin($content);
       // echo $content;die;
       $tmp       = base64_encode($content);
-      $text      = $tmp;
+      $text      = 'data='.$tmp;
       $timestamp = time();
       $param     = array('auf' => '8k', 'aue' => 'raw', 'scene' => 'main');
       $param     = base64_encode(json_encode($param));
