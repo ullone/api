@@ -84,6 +84,7 @@ class Upload{
       exec($cmd, $output);
       //转码成功
       $wavFile = $filePath.'/'.$name;
+      var_dump($wavFile);die;
       $this->voiceToText($wavFile);
     }
 
