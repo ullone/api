@@ -79,6 +79,7 @@ class Upload{
       $name = date("YmdHis").'.wav';
       exec($cmd, $output);
       $cmd  = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $filePath/".$name;
+      var_dump($cmd);die;
       exec($cmd, $output);
       //转码成功
       $wavFile = $filePath.'/'.$name;
