@@ -17,6 +17,7 @@ class Aio {
 
   public function semanticComprehension() {
       $text      = $this->text;
+      var_dump($text);
       $text      = base64_encode($text);
       $text      = 'text='.$text;
       $timestamp = time();
