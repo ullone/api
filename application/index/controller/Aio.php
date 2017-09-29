@@ -7,7 +7,7 @@ use app\index\controller\Func;
 class Aio {
   private $text;
   public function __construct() {
-    $this->text = isset($_POST['text'])?$_POST['text'] : null;
+    $this->text = isset($_POST['text'])?$_POST['text'] : '明天星期几';
   }
 
   public function index() {
@@ -28,7 +28,7 @@ class Aio {
       }
       $param    = array('scene' => 'main', 'userid' => $userid);
       $param    = base64_encode(json_encode($param));
-      $checkSum = 'daa3e49549c8481389ef01d2a4488f88'.$timestamp.$param.$text;
+      $checkSum = '156607c2a7704572ab0fbaa632a04880'.$timestamp.$param.$text;
       $checkSum = md5($checkSum);
       $url      = 'http://api.xfyun.cn/v1/aiui/v1/text_semantic';
       $data     = array(
