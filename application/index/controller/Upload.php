@@ -14,17 +14,17 @@ class Upload{
     //构造函数
     public function __construct()
     {
-        $this->upload_name = $_FILES["file"]["name"]; //取得上传文件名
-        $this->upload_filetype = $_FILES["file"]["type"];
-        $this->upload_tmp_name = $_FILES["file"]["tmp_name"];
+        $this->upload_name       = $_FILES["file"]["name"]; //取得上传文件名
+        $this->upload_filetype   = $_FILES["file"]["type"];
+        $this->upload_tmp_name   = $_FILES["file"]["tmp_name"];
+        var_dump($this->upload_tmp_name);die;
         $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
-        $this->upload_file_size = $_FILES["file"]["size"];
-        $this->upload_target_dir="/webdata/api/upload/silk-v3-decoder-master/upload";
+        $this->upload_file_size  = $_FILES["file"]["size"];
+        $this->upload_target_dir = "/webdata/api/upload/silk-v3-decoder-master/upload";
     }
     //文件上传
     public function index()
     {
-        // var_dump(is_file($this->upload_tmp_name));die;
         header("Content-Type:text/html; charset=utf-8");
         $upload_filetype = $this->getFileExt($this->upload_name);//获取文件扩展名
         if(in_array($upload_filetype,$this->allow_uploadedfile_type))//判断文件类型是否符合要求
@@ -74,9 +74,9 @@ class Upload{
     */
     public function silkToWav($filePath, $fileName) {
       $tmpPath = '/webdata/api/upload/silk-v3-decoder-master/';
-      $file = $filePath.'/'.$fileName;
-      $cmd  = $tmpPath.'converter.sh '.$file.' wav';
-      $name = date("YmdHis").'.wav';
+      $file    = $filePath.'/'.$fileName;
+      $cmd     = $tmpPath.'converter.sh '.$file.' wav';
+      $name    = date("YmdHis").'.wav';
       exec($cmd, $output);
       $wavName = basename($fileName, ".silk");
       $wavName = $wavName.'.wav';
@@ -97,7 +97,7 @@ class Upload{
       $param     = base64_encode(json_encode($param));
       $checkSum  = md5('daa3e49549c8481389ef01d2a4488f88'.$timestamp.$param.$text);
       $url       = 'http://api.xfyun.cn/v1/aiui/v1/iat';
-      $data     = array(
+      $data      = array(
         'timestamp' => $timestamp,
         'checkSum'  => $checkSum,
         'param'     => $param,
