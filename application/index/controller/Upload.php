@@ -1,6 +1,8 @@
 <?php
 namespace app\index\controller;
 
+use app\index\controller\Func;
+
 class Upload{
     public $upload_name;                    //上传文件名
     public $upload_tmp_name;                //上传临时文件名
@@ -107,30 +109,5 @@ class Upload{
       $data = json_encode($data, JSON_UNESCAPED_UNICODE);
       exit($data);
     }
-
-    // private function doCurl($url, $method = 'get', $data = null) {
-    //   $header = [
-    //     "X-Appid:59c37565",
-    //     "X-CurTime:".$data['timestamp'],
-    //     "X-Param:".$data['param'],
-    //     "X-CheckSum:".$data['checkSum'],
-    //   ];
-    // 	$ch = curl_init();
-    // 	curl_setopt($ch, CURLOPT_URL, $url);
-    // 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    // 	curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
-    // 	if($method == 'post') {
-    // 		curl_setopt($ch, CURLOPT_POST, 1);
-    // 		curl_setopt($ch, CURLOPT_POSTFIELDS, $data['text']);
-    // 	}
-    // 	$response = curl_exec($ch);
-    // 	if(curl_errno($ch)){
-    // 		print curl_error($ch);
-    // 	}
-    // 	curl_close($ch);
-    //   $data = json_decode($response, true);
-    //   $data = json_encode($data, JSON_UNESCAPED_UNICODE);
-    //   exit($data);
-    // }
 }
 ?>
