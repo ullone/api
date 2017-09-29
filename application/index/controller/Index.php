@@ -6,13 +6,8 @@ use app\index\controller\Upload;
 
 class Index {
     public function index() {
-        // $this->checkToken();
-        // $view = new \think\View();
-        // return $view->fetch();\
         $upload = new Upload();
         $upload->index();
-        // $aio = new Comprehension();
-        // $aio ->index();
     }
 
     private function checkToken() {
