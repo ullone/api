@@ -3,14 +3,17 @@ namespace app\index\controller;
 
 use \think\View;
 use app\index\controller\Upload;
+use app\index\controller\Upload;
 
 class Index {
     public function index() {
         // $this->checkToken();
         // $view = new \think\View();
         // return $view->fetch();\
-        $upload = new Upload();
-        $upload->index();
+        // $upload = new Upload();
+        // $upload->index();
+        $aio = new Aio();
+        $aio ->index();
     }
 
     private function checkToken() {

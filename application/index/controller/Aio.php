@@ -11,11 +11,8 @@ class Aio {
   }
 
   public function index() {
-    // if($this->text == null) exit('要转义的内容不能为空');
-    // $this->semanticComprehension();
-    $token = sha1("8b0b255ffb10cd97");
-    echo $token;
-    exit();
+    if($this->text == null) exit('要转义的内容不能为空');
+    $this->semanticComprehension();
   }
 
   public function semanticComprehension() {
