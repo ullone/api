@@ -21,6 +21,12 @@ class Aio {
       $text      = base64_encode($text);
       $text      = 'text='.$text;
       $timestamp = time();
+      //生成param参数
+      $userid = '';
+      for ($i = 0; $i < 10; $i++)
+      {
+        $userid .= chr(mt_rand(33, 126));
+      }
       $param    = array('scene' => 'main', 'userid' => $userid);
       $param     = base64_encode(json_encode($param));
       $checkSum  = md5('156607c2a7704572ab0fbaa632a04880'.$timestamp.$param.$text);
