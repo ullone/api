@@ -7,7 +7,6 @@ use app\index\controller\Func;
 class Aio {
   private $text;
   public function __construct() {
-    var_dump($_POST);die;
     $this->text = isset($_POST['text'])?$_POST['text'] : null;
   }
 
