@@ -6,6 +6,7 @@ use app\index\controller\Func;
 
 class Aio {
   private $text;
+  
   public function __construct() {
     $this->text = isset($_POST['text'])?$_POST['text'] : '明天星期几';
   }
