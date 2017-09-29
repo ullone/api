@@ -66,6 +66,7 @@ class Func {
       "X-CurTime:".$data['timestamp'],
       "X-Param:".$data['param'],
       "X-CheckSum:".$data['checkSum'],
+      "Content-Type:application/x-www-form-urlencoded;charset=utf-8",
     ];
   	$ch = curl_init();
   	curl_setopt($ch, CURLOPT_URL, $url);
@@ -80,8 +81,6 @@ class Func {
   		print curl_error($ch);
   	}
   	curl_close($ch);
-    $data = json_decode($response, true);
-    $data = json_encode($data, JSON_UNESCAPED_UNICODE);
-    exit($data);
+    return $response;
   }
 }

@@ -17,7 +17,6 @@ class Aio {
 
   public function semanticComprehension() {
       $text      = $this->text;
-      var_dump($text);
       $text      = base64_encode($text);
       $text      = 'text='.$text;
       $timestamp = time();
@@ -38,7 +37,10 @@ class Aio {
         'param'     => $param,
         'text'      => $text
       );
-      Func::doCurl($url, 'post', $data);
+      $data = Func::doCurl($url, 'post', $data);
+      $data = json_decode($data, true);
+      $data = json_encode($data, JSON_UNESCAPED_UNICODE);
+      exit($data);
     }
 
 }
