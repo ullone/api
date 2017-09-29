@@ -14,50 +14,49 @@ class Upload{
     //构造函数
     public function __construct()
     {
-        // $this->upload_name       = $_FILES["file"]["name"]; //取得上传文件名
-        // $this->upload_filetype   = $_FILES["file"]["type"];
-        // $this->upload_tmp_name   = $_FILES["file"]["tmp_name"];
-        // $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
-        // $this->upload_file_size  = $_FILES["file"]["size"];
-        // $this->upload_target_dir = "/webdata/api/upload/silk-v3-decoder-master/upload";
+        $this->upload_name       = $_FILES["file"]["name"]; //取得上传文件名
+        $this->upload_filetype   = $_FILES["file"]["type"];
+        $this->upload_tmp_name   = $_FILES["file"]["tmp_name"];
+        $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
+        $this->upload_file_size  = $_FILES["file"]["size"];
+        $this->upload_target_dir = "/webdata/api/upload/silk-v3-decoder-master/upload";
     }
     //文件上传
     public function index()
     {
-        // header("Content-Type:text/html; charset=utf-8");
-        // $upload_filetype = $this->getFileExt($this->upload_name);//获取文件扩展名
-        // if(in_array($upload_filetype,$this->allow_uploadedfile_type))//判断文件类型是否符合要求
-        // {
-        //     if($this->upload_file_size < $this->allow_uploaded_maxsize)//判断文件大小是否超过允许的最大值
-        //     {
-        //         if(!is_dir($this->upload_target_dir))//如果文件上传目录不存在
-        //         {
-        //             mkdir($this->upload_target_dir);//创建文件上传目录
-        //             chmod($this->upload_target_dir,0777);//改权限
-        //         }
-        //         $this->upload_final_name = date("YmdHis").rand(0,100).'.'.$upload_filetype;//生成随机文件名
-        //         $this->upload_target_path = $this->upload_target_dir."/".$this->upload_final_name;//文件上传目标目录
-        //         if(!move_uploaded_file($this->upload_tmp_name,$this->upload_target_path))//文件移动失败
-        //         {
-        //             echo("<font color=red>上传失败，请检查文件夹权限！</font>");
-        //             exit('success');
-        //         }
-        //         else
-        //         {
-        //           //上传成功，将.silk文件转换为.wav格式;
-        //           $this->silkToWav($this->upload_target_dir, $this->upload_final_name);
-        //         }
-        //     }
-        //     else
-        //     {
-        //         echo("<font color=red>文件太大,上传失败！</font>");
-        //     }
-        // }
-        // else
-        // {
-        //     echo("<font color=red>仅支持一下文件类型，请重新选择：<br>".implode('，',$this->allow_uploadedfile_type)."</font>");
-        // }
-        $this->semanticComprehension();
+        header("Content-Type:text/html; charset=utf-8");
+        $upload_filetype = $this->getFileExt($this->upload_name);//获取文件扩展名
+        if(in_array($upload_filetype,$this->allow_uploadedfile_type))//判断文件类型是否符合要求
+        {
+            if($this->upload_file_size < $this->allow_uploaded_maxsize)//判断文件大小是否超过允许的最大值
+            {
+                if(!is_dir($this->upload_target_dir))//如果文件上传目录不存在
+                {
+                    mkdir($this->upload_target_dir);//创建文件上传目录
+                    chmod($this->upload_target_dir,0777);//改权限
+                }
+                $this->upload_final_name = date("YmdHis").rand(0,100).'.'.$upload_filetype;//生成随机文件名
+                $this->upload_target_path = $this->upload_target_dir."/".$this->upload_final_name;//文件上传目标目录
+                if(!move_uploaded_file($this->upload_tmp_name,$this->upload_target_path))//文件移动失败
+                {
+                    echo("<font color=red>上传失败，请检查文件夹权限！</font>");
+                    exit('success');
+                }
+                else
+                {
+                  //上传成功，将.silk文件转换为.wav格式;
+                  $this->silkToWav($this->upload_target_dir, $this->upload_final_name);
+                }
+            }
+            else
+            {
+                echo("<font color=red>文件太大,上传失败！</font>");
+            }
+        }
+        else
+        {
+            echo("<font color=red>仅支持一下文件类型，请重新选择：<br>".implode('，',$this->allow_uploadedfile_type)."</font>");
+        }
     }
     /**
     *获取文件扩展名
@@ -87,7 +86,6 @@ class Upload{
       $wavFile = $filePath.'/'.$name;
       $this->voiceToText($wavFile);
     }
-
     public function voiceToText($file) {
       $handle    = fopen($file,"rb");
       $content   = fread($handle,filesize($file));
@@ -106,35 +104,6 @@ class Upload{
       );
       $this->doCurl($url, 'post', $data);
     }
-
-    public function semanticComprehension() {
-        $text      = '明天星期几';
-        $text      = base64_encode($text);
-        $text      = 'text='.$text;
-        $timestamp = time();
-        //生成param参数
-        $userid = '';
-        for ($i = 0; $i < 10; $i++)
-        {
-          $userid .= chr(mt_rand(33, 126));
-        }
-        $param    = array('scene' => 'main', 'userid' => $userid);
-        $param    = base64_encode(json_encode($param));
-        $checkSum = 'daa3e49549c8481389ef01d2a4488f88'.$timestamp.$param.$text;
-        $checkSum = md5($checkSum);
-        $url      = 'http://api.xfyun.cn/v1/aiui/v1/text_semantic';
-        $data     = array(
-          'timestamp' => $timestamp,
-          'checkSum'  => $checkSum,
-          'param'     => $param,
-          'text'      => $text
-        );
-        $this->doCurl($url, 'post', $data);
-        // $data = Func::doCurl($url, 'post', $data);
-        // $data = json_decode($data, true);
-        // $data = json_encode($data, JSON_UNESCAPED_UNICODE);
-        // exit($data);
-      }
 
     private function doCurl($url, $method = 'get', $data = null) {
       $header = [
