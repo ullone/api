@@ -21,7 +21,7 @@ class Aio {
       $text      = base64_encode($text);
       $text      = 'text='.$text;
       $timestamp = time();
-      $param     = array('auf' => '16k', 'aue' => 'raw', 'scene' => 'main');
+      $param    = array('scene' => 'main', 'userid' => $userid);
       $param     = base64_encode(json_encode($param));
       $checkSum  = md5('156607c2a7704572ab0fbaa632a04880'.$timestamp.$param.$text);
       $url       = 'http://api.xfyun.cn/v1/aiui/v1/text_semantic';
