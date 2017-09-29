@@ -62,7 +62,7 @@ class Func {
 
   public static function doCurl($url, $method = 'get', $data = null) {
     $header = [
-      "X-Appid:59c37565",
+      "X-Appid:59bf7ad0",
       "X-CurTime:".$data['timestamp'],
       "X-Param:".$data['param'],
       "X-CheckSum:".$data['checkSum'],
