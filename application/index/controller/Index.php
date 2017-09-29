@@ -17,7 +17,7 @@ class Index {
         $signature = $_GET['signature'];
         $timestamp = $_GET['timestamp'];
         $rand      = $_GET['rand'];
-        $token     = '3bfe75bfb2d4752e';
+        $token     = '8b0b255ffb10cd97';
         $tmpArr = array($token, $timestamp, $rand);
         sort($tmpArr, SORT_STRING);
         $tmpStr = implode( $tmpArr );
