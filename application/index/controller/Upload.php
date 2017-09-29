@@ -105,7 +105,7 @@ class Upload{
         'text'      => $text
       );
       $data = Func::doCurl($url, 'post', $data);
-      $data = json_decode($response, true);
+      $data = json_decode($data, true);
       $data = json_encode($data, JSON_UNESCAPED_UNICODE);
       exit($data);
     }

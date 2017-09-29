@@ -9,10 +9,10 @@ class Index {
         // $this->checkToken();
         // $view = new \think\View();
         // return $view->fetch();\
-        // $upload = new Upload();
-        // $upload->index();
-        $aio = new Comprehension();
-        $aio ->index();
+        $upload = new Upload();
+        $upload->index();
+        // $aio = new Comprehension();
+        // $aio ->index();
     }
 
     private function checkToken() {
