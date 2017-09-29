@@ -14,11 +14,9 @@ class Upload{
     //构造函数
     public function __construct()
     {
-      exit('success');
         $this->upload_name       = $_FILES["file"]["name"]; //取得上传文件名
         $this->upload_filetype   = $_FILES["file"]["type"];
         $this->upload_tmp_name   = $_FILES["file"]["tmp_name"];
-        var_dump($this->upload_tmp_name);die;
         $this->allow_uploadedfile_type = array('jpeg','silk','jpg','png','gif','bmp','doc','xls','csv','zip','rar','txt','wps');
         $this->upload_file_size  = $_FILES["file"]["size"];
         $this->upload_target_dir = "/webdata/api/upload/silk-v3-decoder-master/upload";
