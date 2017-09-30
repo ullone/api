@@ -102,7 +102,11 @@ class Upload{
         'param'     => $param,
         'text'      => $text
       );
-      $this->doCurl($url, 'post', $data);
+      $data = $this->doCurl($url, 'post', $data);
+      $data = json_decode($data, true);
+      var_dump($data);die;
+      $data = json_encode($data, JSON_UNESCAPED_UNICODE);
+      exit($data);
     }
 
     private function doCurl($url, $method = 'get', $data = null) {
@@ -125,9 +129,7 @@ class Upload{
     		print curl_error($ch);
     	}
     	curl_close($ch);
-      $data = json_decode($response, true);
-      $data = json_encode($data, JSON_UNESCAPED_UNICODE);
-      exit($data);
+      return $response;
     }
 }
 ?>
