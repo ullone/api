@@ -5,20 +5,19 @@ namespace app\index\controller;
 use app\index\controller\Func;
 
 class Comprehension {
-  private $text;
+  // private $text;
+  //
+  // public function __construct() {
+  //   $this->text = isset($_POST['text'])?$_POST['text'] : '明天星期几';
+  // }
+  //
+  // public function index() {
+  //   if($this->text == null) exit('要转义的内容不能为空');
+  //   $this->semanticComprehension();
+  // }
 
-  public function __construct() {
-    $this->text = isset($_POST['text'])?$_POST['text'] : '明天星期几';
-  }
-
-  public function index() {
-    if($this->text == null) exit('要转义的内容不能为空');
-    $this->semanticComprehension();
-  }
-
-  public function semanticComprehension() {
-      $text      = $this->text;
-      $text      = base64_encode($text);
+  public function semanticComprehension($voiceText) {
+      $text      = base64_encode($voiceText);
       $text      = 'text='.$text;
       $timestamp = time();
       //生成param参数
@@ -37,7 +36,13 @@ class Comprehension {
         'param'     => $param,
         'text'      => $text
       );
-      $this->doCurl($url, 'post', $data);
+      $data = $this->doCurl($url, 'post', $data);
+      $data = json_decode($data, true);
+      if($data['code'] != '00000')
+        Func::callBack(201, '调用讯飞文本语义接口失败，请检查参数');
+      if(empty($data['data']['answer']['text']))
+        Func::callBack(0, '语音录制成功', array('text' => $voiceText));
+      Func::callBack(0, '成功录制语音并转义', array('text' => $data['data']['answer']['text']));
     }
 
     private function doCurl($url, $method = 'get', $data = null) {
@@ -60,9 +65,7 @@ class Comprehension {
     		print curl_error($ch);
     	}
     	curl_close($ch);
-      $data = json_decode($response, true);
-      $data = json_encode($data, JSON_UNESCAPED_UNICODE);
-      exit($data);
+      return $response;
     }
 
 }

@@ -1,6 +1,8 @@
 <?php
 namespace app\index\controller;
 
+use app\index\controller\Func;
+
 class Upload{
     public $upload_name;                    //上传文件名
     public $upload_tmp_name;                //上传临时文件名
@@ -14,6 +16,7 @@ class Upload{
     //构造函数
     public function __construct()
     {
+        if(!isset($_FILES)) Func::callBack(101, '上传文件为空');
         $this->upload_name       = $_FILES["file"]["name"]; //取得上传文件名
         $this->upload_filetype   = $_FILES["file"]["type"];
         $this->upload_tmp_name   = $_FILES["file"]["tmp_name"];
@@ -39,8 +42,7 @@ class Upload{
                 $this->upload_target_path = $this->upload_target_dir."/".$this->upload_final_name;//文件上传目标目录
                 if(!move_uploaded_file($this->upload_tmp_name,$this->upload_target_path))//文件移动失败
                 {
-                    echo("<font color=red>上传失败，请检查文件夹权限！</font>");
-                    exit('success');
+                    Func::callBack(104, '上传文件失败，请检查文件权限');
                 }
                 else
                 {
@@ -48,15 +50,9 @@ class Upload{
                   $this->silkToWav($this->upload_target_dir, $this->upload_final_name);
                 }
             }
-            else
-            {
-                echo("<font color=red>文件太大,上传失败！</font>");
-            }
+            else Func::callBack(103, '上传文件不能超过10M，请重新上传');
         }
-        else
-        {
-            echo("<font color=red>仅支持一下文件类型，请重新选择：<br>".implode('，',$this->allow_uploadedfile_type)."</font>");
-        }
+        else Func::callBack(102, '上传的文件类型不支持，请上传.silk文件');
     }
     /**
     *获取文件扩展名
@@ -74,16 +70,19 @@ class Upload{
     public function silkToWav($filePath, $fileName) {
       $tmpPath = '/webdata/api/upload/silk-v3-decoder-master/';
       $file    = $filePath.'/'.$fileName;
+      if(!is_file($file)) Func::callBack(105, '文件不存在，请重新上传');
       $cmd     = $tmpPath.'converter.sh '.$file.' wav';
-      $name    = date("YmdHis").'.wav';
       exec($cmd, $output);
       $wavName = basename($fileName, ".silk");
       $wavName = $wavName.'.wav';
       $file    = $filePath.'/'.$wavName;
+      if(!is_file($file)) Func::callBack(105, '文件转码失败');
+      $name    = date("YmdHis").'.wav';
       $cmd  = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $filePath/".$name;
       exec($cmd, $output);
       //转码成功
       $wavFile = $filePath.'/'.$name;
+      if(!is_file($wavFile)) Func::callBack(106, '文件频率转换失败');
       $this->voiceToText($wavFile);
     }
     public function voiceToText($file) {
@@ -104,9 +103,12 @@ class Upload{
       );
       $data = $this->doCurl($url, 'post', $data);
       $data = json_decode($data, true);
-      var_dump($data);die;
-      $data = json_encode($data, JSON_UNESCAPED_UNICODE);
-      exit($data);
+      if($data["code"] != '00000')
+        Func::callBack(107, '调用讯飞语音接口失败，请检查参数');
+      if(empty($data['data']['result']))
+        Func::callBack(108, '很抱歉，这句话我难以理解！');
+      $comprehension = new Comprehension();
+      $comprehension->semanticComprehension($data['data']['result']);
     }
 
     private function doCurl($url, $method = 'get', $data = null) {
