@@ -14,7 +14,7 @@ class Comprehensions {
     //返回的数据及转换成为数组
     $res  = $this->requestPost($url, $bodys);
     $res  = json_decode($res, true);
-    var_dump($res['result']);die;
+    var_dump($res['result']['action_list'][0]);die;
     $res  = empty($res['result']['qu_res']['intent_candidates']) ? null : $res['result']['qu_res']['intent_candidates'][0]['slots'];
     var_dump($res);die;
     if($res === null) Func::callBack(101, 'fail');
