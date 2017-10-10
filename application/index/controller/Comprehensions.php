@@ -9,13 +9,14 @@ class Comprehensions {
   public function semanticComprehension() {//$voiceText为要转义的文本
     $access_token = $this->getAccessToken('c8pGo3iFRfnMK3dSNbPFuxGs','ayZUzO7hbIHPvZAr8cAv90oOUp43sjCt');
     $token = $access_token ;
-    $url = 'https://aip.baidubce.com/rpc/2.0/solution/v1/unit_utterance?access_token=' . $token;
-    $bodys = "{\"scene_id\":11009,\"query\":\"明天多少号？\", \"session_id\":\" \"}";
+    $url   = 'https://aip.baidubce.com/rpc/2.0/solution/v1/unit_utterance?access_token=' . $token;
+    $bodys = "{\"scene_id\":11009,\"query\":\"明天多少号\", \"session_id\":\" \"}";
     //返回的数据及转换成为数组
-    $res = $this->requestPost($url, $bodys);
-    $res = json_decode($res, true);
-    var_dump($res['result']);die;
-    $res = $res['result']['qu_res']['intent_candidates'][0]['slots'];
+    $res  = $this->requestPost($url, $bodys);
+    $res  = json_decode($res, true);
+    $res  = empty($res['result']['qu_res']['intent_candidates']) ? null : $res['result']['qu_res']['intent_candidates'][0]['slots'];
+    var_dump($res);die;
+    if($res === null) Func::callBack(101, 'fail');
     $data = array(
       'time'    => $res[0]['normalized_word'],
       'address' => $res[1]['normalized_word']
