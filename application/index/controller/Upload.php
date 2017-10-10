@@ -2,6 +2,7 @@
 namespace app\index\controller;
 
 use app\index\controller\Func;
+use app\index\controller\Comprehensions;
 
 class Upload{
     public $upload_name;                    //上传文件名
