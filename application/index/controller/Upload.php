@@ -107,7 +107,7 @@ class Upload{
         Func::callBack(107, '调用讯飞语音接口失败，请检查参数');
       if(empty($data['data']['result']))
         Func::callBack(108, '很抱歉，这句话我难以理解！');
-      $comprehension = new Comprehension();
+      $comprehension = new Comprehensions();
       $comprehension->semanticComprehension($data['data']['result']);
     }
 

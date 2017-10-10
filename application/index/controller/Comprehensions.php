@@ -14,12 +14,12 @@ class Comprehensions {
     //返回的数据及转换成为数组
     $res = $this->requestPost($url, $bodys);
     $res = json_decode($res, true);
+    var_dump($res['result']);die;
     $res = $res['result']['qu_res']['intent_candidates'][0]['slots'];
     $data = array(
       'time'    => $res[0]['normalized_word'],
       'address' => $res[1]['normalized_word']
     );
-    var_dump($data);die;
     Func::callBack(0,'success',$data);//result为转义后的数组
   }
 
