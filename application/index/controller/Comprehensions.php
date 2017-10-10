@@ -13,15 +13,14 @@ class Comprehensions {
     $bodys = "{\"scene_id\":11009,\"query\":\"明天杭州的天气怎么样？\", \"session_id\":\" \"}";
     //返回的数据及转换成为数组
     $res = $this->requestPost($url, $bodys);
-    $test = array();
-    $test = explode(",",$res);
-    $res  = json_decode($res, true);
-    var_dump($res['result']['qu_res']['intent_candidates'][0]['slots']);die;
+    $res = json_decode($res, true);
+    $res = $res['result']['qu_res']['intent_candidates'][0]['slots'];
     $data = array(
-      'time' => $res['result']['qu_res']['intent_candidates']['normalized_word'],
-
+      'time'    => $res[0]['normalized_word'],
+      'address' => $res[1]['normalized_word']
     );
-    Func::callBack(0,'success',$result);//result为转义后的数组
+    var_dump($data);die;
+    Func::callBack(0,'success',$data);//result为转义后的数组
   }
 
   /**
