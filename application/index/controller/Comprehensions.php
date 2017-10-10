@@ -15,7 +15,7 @@ class Comprehensions {
     $res = $this->requestPost($url, $bodys);
     $test = array();
     $test = explode(",",$res);
-    $res  = json_decode($res, true);
+    $res  = json_decode($res['result'], true);
     var_dump($res);die;
     Func::callBack(0,'success',$result);//result为转义后的数组
   }
