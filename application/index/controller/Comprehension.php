@@ -5,16 +5,6 @@ namespace app\index\controller;
 use app\index\controller\Func;
 
 class Comprehension {
-  // private $text;
-  //
-  // public function __construct() {
-  //   $this->text = isset($_POST['text'])?$_POST['text'] : '明天星期几';
-  // }
-  //
-  // public function index() {
-  //   if($this->text == null) exit('要转义的内容不能为空');
-  //   $this->semanticComprehension();
-  // }
 
   public function semanticComprehension($voiceText) {
       $text      = base64_encode($voiceText);
