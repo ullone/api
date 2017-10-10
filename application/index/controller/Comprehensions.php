@@ -20,8 +20,8 @@ class Comprehensions {
       Func::callBack(101, $msg);
     }
     $data = array(
-      'time'    => $res[0]['normalized_word'],
-      'address' => $res[1]['normalized_word']
+      'time'    => $result[0]['normalized_word'],
+      'address' => $result[1]['normalized_word']
     );
     Func::callBack(0,'success',$data);//result为转义后的数组
   }
