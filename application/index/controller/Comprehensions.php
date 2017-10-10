@@ -16,7 +16,7 @@ class Comprehensions {
     $test = array();
     $test = explode(",",$res);
     $res  = json_decode($res, true);
-    var_dump($res['result']);die;
+    var_dump($res['result']['slots']);die;
     Func::callBack(0,'success',$result);//result为转义后的数组
   }
 
