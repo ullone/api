@@ -16,7 +16,7 @@ class Comprehensions {
     $test = array();
     $test = explode(",",$res);
     $res  = json_decode($res, true);
-    var_dump($res['result']['qu_res']['intent_candidates']);die;
+    var_dump($res['result']['qu_res']['intent_candidates'][0]);die;
     $data = array(
       'time' => $res['result']['qu_res']['intent_candidates']['normalized_word'],
 
