@@ -10,10 +10,11 @@ class Comprehensions {
     $access_token = $this->getAccessToken('1jzCUFD9pjaysq4TLULYs1Qk','aBQTEe3Pf8YtZaeok5T8nDaAX60CyxOz');
     $token  = $access_token ;
     $url    = 'https://aip.baidubce.com/rpc/2.0/solution/v1/unit_utterance?access_token=' . $token;
-    $bodys  = "{\"scene_id\":11128,\"query\":\"明天我要西安\", \"session_id\":\" \"}";
+    $bodys  = "{\"scene_id\":11128,\"query\":\"明天我要去西安\", \"session_id\":\" \"}";
     //返回的数据及转换成为数组
     $res    = $this->requestPost($url, $bodys);
     $res    = json_decode($res, true);
+    var_dump($res['result']);die;
     $result = empty($res['result']['qu_res']['intent_candidates']) ? null : $res['result']['qu_res']['intent_candidates'][0]['slots'];
     if($result === null) {
       $msg = $res['result']['action_list'][0]['say'];
