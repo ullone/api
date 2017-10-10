@@ -10,7 +10,7 @@ class Comprehensions {
     $access_token = $this->getAccessToken('c8pGo3iFRfnMK3dSNbPFuxGs','ayZUzO7hbIHPvZAr8cAv90oOUp43sjCt');
     $token = $access_token ;
     $url = 'https://aip.baidubce.com/rpc/2.0/solution/v1/unit_utterance?access_token=' . $token;
-    $bodys = "{\"scene_id\":11009,\"query\":\"明天杭州的天气怎么样？\", \"session_id\":\" \"}";
+    $bodys = "{\"scene_id\":11009,\"query\":\"明天多少号？\", \"session_id\":\" \"}";
     //返回的数据及转换成为数组
     $res = $this->requestPost($url, $bodys);
     $res = json_decode($res, true);
