@@ -6,7 +6,7 @@ use app\index\controller\Func;
 
 class ComprehensionTest {
 
-  public function semanticComprehension($voiceText) {//$voiceText为要转义的文本
+  public function semanticComprehension() {//$voiceText为要转义的文本
     $access_token = $this->getAccessToken('c8pGo3iFRfnMK3dSNbPFuxGs','ayZUzO7hbIHPvZAr8cAv90oOUp43sjCt');
     $token = $access_token ;
     $url = 'https://aip.baidubce.com/rpc/2.0/solution/v1/unit_utterance?access_token=' . $token;
