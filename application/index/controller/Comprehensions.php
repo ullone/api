@@ -4,7 +4,7 @@ namespace app\index\controller;
 
 use app\index\controller\Func;
 
-class ComprehensionTest {
+class Comprehensions {
 
   public function semanticComprehension() {//$voiceText为要转义的文本
     $access_token = $this->getAccessToken('c8pGo3iFRfnMK3dSNbPFuxGs','ayZUzO7hbIHPvZAr8cAv90oOUp43sjCt');
