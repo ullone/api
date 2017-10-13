@@ -25,7 +25,7 @@ class Comprehensions {
       $time  = $result[0]['normalized_word'];
       $clock = '00:00';
     } else {
-      $clock = substr($result[0]['normalized_word'],strpos($result[0]['normalized_word'],'|')+1);  
+      $clock = substr($result[0]['normalized_word'], strpos($result[0]['normalized_word'], '|')+1, 5);
     }
     $data  = array(
       'time'    => $time,
