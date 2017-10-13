@@ -19,12 +19,13 @@ class Comprehensions {
       $msg = $res['result']['action_list'][0]['say'];
       Func::callBack(101, $msg);
     }
-    $data = array(
-      'time'    => $result[0]['normalized_word'],
+    $clock = substr($result[0]['normalized_word'],strpos($result[0]['normalized_word'],'|')+1);
+    $time  = strstr($result[0]['normalized_word'],'|',true);
+    $data  = array(
+      'time'    => $time,
+      'clock'   => $clock,
       'address' => $result[1]['normalized_word']
     );
-    $clock = substr($data['time'],strpos($data['time'],'|')+1);
-    var_dump($clock);
     Func::callBack(0,'转义成功',$data);//result为转义后的数组
   }
 
