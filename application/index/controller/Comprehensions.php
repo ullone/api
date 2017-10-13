@@ -10,7 +10,7 @@ class Comprehensions {
     $access_token = $this->getAccessToken('1jzCUFD9pjaysq4TLULYs1Qk','aBQTEe3Pf8YtZaeok5T8nDaAX60CyxOz');
     $token  = $access_token ;
     $url    = 'https://aip.baidubce.com/rpc/2.0/solution/v1/unit_utterance?access_token=' . $token;
-    $bodys  = "{\"scene_id\":11128,\"query\":\"明天上午去爬山\", \"session_id\":\" \"}";
+    $bodys  = "{\"scene_id\":11128,\"query\":\"明天去爬山\", \"session_id\":\" \"}";
     //返回的数据及转换成为数组
     $res    = $this->requestPost($url, $bodys);
     $res    = json_decode($res, true);
@@ -20,6 +20,7 @@ class Comprehensions {
       Func::callBack(101, $msg);
     }
     $clock = substr($result[0]['normalized_word'],strpos($result[0]['normalized_word'],'|')+1);
+
     $time  = strstr($result[0]['normalized_word'],'|',true);
     $data  = array(
       'time'    => $time,
