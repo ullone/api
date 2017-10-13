@@ -19,9 +19,14 @@ class Comprehensions {
       $msg = $res['result']['action_list'][0]['say'];
       Func::callBack(101, $msg);
     }
-    $clock = substr($result[0]['normalized_word'],strpos($result[0]['normalized_word'],'|')+1);
-
     $time  = strstr($result[0]['normalized_word'],'|',true);
+    if(!$time) {
+      //返回字符串中无'|',用户语音未输入具体时间
+      $time  = $result[0]['normalized_word'];
+      $clock = '00:00';
+    } else {
+      $clock = substr($result[0]['normalized_word'],strpos($result[0]['normalized_word'],'|')+1);  
+    }
     $data  = array(
       'time'    => $time,
       'clock'   => $clock,
