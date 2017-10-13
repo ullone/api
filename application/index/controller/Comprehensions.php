@@ -23,7 +23,7 @@ class Comprehensions {
       'time'    => $result[0]['normalized_word'],
       'address' => $result[1]['normalized_word']
     );
-    $clock = substr($data['time'],strpos($data['time'],'|'));
+    $clock = substr($data['time'],strpos($data['time'],'|')+1);
     var_dump($clock);
     Func::callBack(0,'转义成功',$data);//result为转义后的数组
   }
