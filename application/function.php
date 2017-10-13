@@ -53,7 +53,6 @@ function doCurl($url, $method = 'get', $data = null, $cookie = null) {
 		print curl_error($ch);
 	}
 	curl_close($ch);
-	// return is_Array($response)?$response:js2Array($response);
   return $response;
 }
 
