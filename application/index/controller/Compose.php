@@ -7,7 +7,7 @@ use app\index\controller\Func;
 class Compose {
 
   public function voiceCompose() {
-    $text = url_encode('好的，已经为您记录');
+    $text = urlencode('好的，已经为您记录');
     $access_token = $this->getAccessToken('1jzCUFD9pjaysq4TLULYs1Qk','aBQTEe3Pf8YtZaeok5T8nDaAX60CyxOz');
     $token        = $access_token;
     $url          = 'http://tsn.baidu.com/text2audio';
