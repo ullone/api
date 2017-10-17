@@ -30,7 +30,7 @@ class Compose {
     $post_data['grant_type']  = 'client_credentials';
     $post_data['client_id']   = $ak;
     $post_data['client_secret'] = $sk;
-
+    exit('dsfa');
     $res = $this->requestPost($url, $post_data);
     if (!!$res) {
         $res = json_decode($res, true);
