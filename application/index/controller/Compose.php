@@ -11,7 +11,6 @@ class Compose {
     $access_token = $this->getAccessToken('1jzCUFD9pjaysq4TLULYs1Qk','aBQTEe3Pf8YtZaeok5T8nDaAX60CyxOz');
     $token        = $access_token;
     $cuid         = uniqid();
-    die;
     $url          = "http://tsn.baidu.com/text2audio?tex=$text&lan=zh&cuid=$cuid&ctp=1&tok=$access_token";
     $res    = file_get_contents($url);
     $res    = json_decode($res, true);
@@ -30,7 +29,6 @@ class Compose {
     $post_data['grant_type']  = 'client_credentials';
     $post_data['client_id']   = $ak;
     $post_data['client_secret'] = $sk;
-    exit('dsfa');
     $res = $this->requestPost($url, $post_data);
     if (!!$res) {
         $res = json_decode($res, true);
