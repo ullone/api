@@ -44,8 +44,8 @@ class Comprehensions {
   private function getAccessToken($ak, $sk) {
     $url = 'https://aip.baidubce.com/oauth/2.0/token';
     $post_data = array();
-    $post_data['grant_type']  = 'client_credentials';
-    $post_data['client_id']   = $ak;
+    $post_data['grant_type']    = 'client_credentials';
+    $post_data['client_id']     = $ak;
     $post_data['client_secret'] = $sk;
 
     $res = $this->requestPost($url, $post_data);
