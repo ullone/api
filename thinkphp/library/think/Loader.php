@@ -78,14 +78,8 @@ class Loader
         $first = $class[0];
         //self::$prefixLengthsPsr4=>array(
         //   'a' =>array(
-        //     'app\' => ['D:\web\tp5\public/../application/',...],
         //     ...
-        //   ),
-        //   't' => array(
-        //     'think\worker' => [D:\web\tp5\thinkphp\library\think',...],
-        //     ...
-        //   ),
-        // );
+        //   );
         if (isset(self::$prefixLengthsPsr4[$first])) {
             foreach (self::$prefixLengthsPsr4[$first] as $prefix => $length) {
                 if (0 === strpos($class, $prefix)) {//查找再$class中第一次出现的位置
