@@ -9,7 +9,6 @@ class Compose {
   public function voiceCompose() {
     $text = urlencode('好的，已经为您记录');
     $access_token = $this->getAccessToken('1jzCUFD9pjaysq4TLULYs1Qk','aBQTEe3Pf8YtZaeok5T8nDaAX60CyxOz');
-    exit();
     $token        = $access_token;
     $cuid         = uniqid();
     exit('dfsa');
@@ -31,6 +30,7 @@ class Compose {
     $post_data['grant_type']  = 'client_credentials';
     $post_data['client_id']   = $ak;
     $post_data['client_secret'] = $sk;
+    exit();
     $res = $this->requestPost($url, $post_data);
     if (!!$res) {
         $res = json_decode($res, true);
