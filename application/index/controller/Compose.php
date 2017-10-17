@@ -17,6 +17,7 @@ class Compose {
     $fp = fopen('/webdata/api/download/'.$cuid.'.mp3', 'w');
     fwrite($fp, $res);
     fclose($fp);
+    exit('success');
     // var_dump($res);die;
   }
 }
