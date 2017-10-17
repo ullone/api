@@ -24,7 +24,7 @@ class Compose {
    * @return - access_token string if succeeds, else false.
   */
   private function getAccessToken($ak, $sk) {
-    $url = 'https://aip.baidubce.com/oauth/2.0/token';
+    $url = 'https://openapi.baidu.com/oauth/2.0/token';
     $post_data = array();
     $post_data['grant_type']  = 'client_credentials';
     $post_data['client_id']   = $ak;
@@ -33,6 +33,7 @@ class Compose {
     $res = $this->requestPost($url, $post_data);
     if (!!$res) {
         $res = json_decode($res, true);
+        var_dump($res);die;
         return $res['access_token'];
     } else {
         return false;
