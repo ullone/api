@@ -11,6 +11,7 @@ class Compose {
     $text = urlencode('好的，已经为您记录');
     $access_token = Func::getAccessToken('1jzCUFD9pjaysq4TLULYs1Qk','aBQTEe3Pf8YtZaeok5T8nDaAX60CyxOz');
     $token = $access_token;
+    Func::callBack(0,'success');
     $cuid  = uniqid();
     $url   = "http://tsn.baidu.com/text2audio?tex=$text&lan=zh&cuid=$cuid&ctp=1&tok=$access_token";
     $res   = file_get_contents($url);
