@@ -6,7 +6,7 @@ use app\index\controller\Func;
 
 class Compose {
 
-  public function voiceComposes() {
+  public function voiceCompose() {
     header("Content-type: audio/mp3");
     $text = urlencode('好的，已经为您记录');
     $access_token = Func::getAccessToken('1jzCUFD9pjaysq4TLULYs1Qk','aBQTEe3Pf8YtZaeok5T8nDaAX60CyxOz');
@@ -17,7 +17,7 @@ class Compose {
     $fp    = fopen('/webdata/api/download/'.$cuid.'.mp3', 'w') or die('打开文件失败');
     fwrite($fp, $res);
     fclose($fp);
-    exit('success');
+    Func::callBack(0,'成功合成语音');
     // var_dump($res);die;
   }
 }
