@@ -13,6 +13,7 @@ class Compose {
     $token        = $access_token;
     $cuid         = uniqid();
     $url          = "http://tsn.baidu.com/text2audio?tex=$text&lan=zh&cuid=$cuid&ctp=1&tok=$access_token";
+    die();
     $res          = file_get_contents($url);
     $fp = fopen('/webdata/api/download/'.$cuid.'.mp3', 'w') or die('打开文件失败');
     fwrite($fp, $res);
