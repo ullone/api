@@ -1,0 +1,3108 @@
+---------------------------------------------------------------
+[ 2017-10-10T10:41:30+08:00 ] 104.238.148.249 157.119.232.12 POST /
+[ info ] api.ullone.com/ [运行时间：3.001254s][吞吐率：0.33req/s] [内存消耗：500.72kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'af03a3a8095724bd5b31fd3330f6fd32',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '5575',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507603287234',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T10:41:46+08:00 ] 104.238.148.249 157.119.232.9 POST /
+[ info ] api.ullone.com/ [运行时间：1.204303s][吞吐率：0.83req/s] [内存消耗：522.05kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '1ac8b33702e5e5cc1f4002d73fb414c9',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '5200',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507603303306',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T10:42:00+08:00 ] 104.238.148.249 157.119.232.10 POST /
+[ info ] api.ullone.com/ [运行时间：1.249303s][吞吐率：0.80req/s] [内存消耗：300.86kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b5448d04cbca771f335367f17069776d',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '1743',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507603318042',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T10:42:03+08:00 ] 104.238.148.249 157.119.232.5 POST /
+[ info ] api.ullone.com/ [运行时间：1.200650s][吞吐率：0.83req/s] [内存消耗：423.12kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'ec4807d7085c905e84ff9e709a9b3e99',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '3822',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507603321127',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T11:05:06+08:00 ] 104.238.148.249 157.119.232.10 POST /
+[ info ] api.ullone.com/ [运行时间：1.402711s][吞吐率：0.71req/s] [内存消耗：443.12kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '23290557a7813d6eb142dd28912378c4',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '3983',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507604703474',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T11:05:44+08:00 ] 104.238.148.249 157.119.232.8 POST /
+[ info ] api.ullone.com/ [运行时间：1.479981s][吞吐率：0.68req/s] [内存消耗：411.12kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7127077565b97c9df76c8b66f08b1cec',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '3694',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507604740667',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T11:59:34+08:00 ] 104.238.148.249 157.119.232.10 GET /index/Comprehension
+[ info ] api.ullone.com/index/Comprehension [运行时间：0.006479s][吞吐率：154.34req/s] [内存消耗：135.57kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehension',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'f0fec62f20f2d4444e37ea6bc371f6ea',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T11:59:51+08:00 ] 104.238.148.249 157.119.232.5 GET /index/Comprehension/semanticComprehension
+[ info ] api.ullone.com/index/Comprehension/semanticComprehension [运行时间：0.005698s][吞吐率：175.49req/s] [内存消耗：134.16kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehension',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3675d505767aac9a97209fac37d3a5c0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:voiceText[/webdata/api/thinkphp/library/think/App.php:281]
+---------------------------------------------------------------
+[ 2017-10-10T11:59:51+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehension/semanticComprehension
+[ info ] api.ullone.com/index/Comprehension/semanticComprehension [运行时间：0.003396s][吞吐率：294.46req/s] [内存消耗：134.16kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehension',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3675d505767aac9a97209fac37d3a5c0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:voiceText[/webdata/api/thinkphp/library/think/App.php:281]
+---------------------------------------------------------------
+[ 2017-10-10T12:04:15+08:00 ] 104.238.148.249 157.119.232.6 GET /index/ComprehensionTest/semanticComprehension
+[ info ] api.ullone.com/index/ComprehensionTest/semanticComprehension [运行时间：0.005427s][吞吐率：184.27req/s] [内存消耗：135.91kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ComprehensionTest',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '6b859323e795f68b87f537866ffa5a23',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T12:05:41+08:00 ] 104.238.148.249 157.119.232.5 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：0.006417s][吞吐率：155.84req/s] [内存消耗：137.24kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '8c8355e57e7c99e3991c9dd3de72c184',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T12:05:46+08:00 ] 104.238.148.249 157.119.232.10 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：0.002784s][吞吐率：359.19req/s] [内存消耗：136.69kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '2730411f249cef97fb3b95ebbecafc88',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T12:05:48+08:00 ] 104.238.148.249 157.119.232.9 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：0.002466s][吞吐率：405.52req/s] [内存消耗：136.69kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c8fb4adac93be60d88c137fefb55bad0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T12:06:36+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：5.792299s][吞吐率：0.17req/s] [内存消耗：158.59kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'f194396520a56f8f4e0d78035f28a441',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T12:09:59+08:00 ] 104.238.148.249 157.119.232.11 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：2.266820s][吞吐率：0.44req/s] [内存消耗：158.59kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c35b739b34ac9f6faf61f8b5dd8ee928',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T12:10:51+08:00 ] 104.238.148.249 157.119.232.13 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.191486s][吞吐率：0.84req/s] [内存消耗：138.60kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c2aa499f84f4562313c00da69223fcae',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: result[/webdata/api/application/index/controller/Comprehensions.php:18]
+---------------------------------------------------------------
+[ 2017-10-10T12:10:53+08:00 ] 104.238.148.249 157.119.232.7 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.812147s][吞吐率：0.55req/s] [内存消耗：137.51kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c2aa499f84f4562313c00da69223fcae',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: result[/webdata/api/application/index/controller/Comprehensions.php:18]
+---------------------------------------------------------------
+[ 2017-10-10T12:11:24+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.913700s][吞吐率：0.52req/s] [内存消耗：158.59kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'f7c32d4fc61877a8099b02df3dddec19',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:13:29+08:00 ] 104.238.148.249 157.119.232.10 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：0.004280s][吞吐率：233.64req/s] [内存消耗：135.48kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '0b9059fe2143885e1d4bce7c6912ae7d',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'var_dump' (T_STRING)[/webdata/api/application/index/controller/Comprehensions.php:19]
+---------------------------------------------------------------
+[ 2017-10-10T14:13:30+08:00 ] 104.238.148.249 157.119.232.10 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：0.002902s][吞吐率：344.59req/s] [内存消耗：135.48kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '0b9059fe2143885e1d4bce7c6912ae7d',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'var_dump' (T_STRING)[/webdata/api/application/index/controller/Comprehensions.php:19]
+---------------------------------------------------------------
+[ 2017-10-10T14:14:04+08:00 ] 104.238.148.249 157.119.232.8 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：2.446292s][吞吐率：0.41req/s] [内存消耗：164.93kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'ac8b1ada9965e910619c4b373874193e',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:15:51+08:00 ] 104.238.148.249 157.119.232.8 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：2.006575s][吞吐率：0.50req/s] [内存消耗：138.60kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '17ac48128bf3f620da4acdbb53e25f1d',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'result'[/webdata/api/application/index/controller/Comprehensions.php:18]
+---------------------------------------------------------------
+[ 2017-10-10T14:15:53+08:00 ] 104.238.148.249 157.119.232.5 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.680765s][吞吐率：0.59req/s] [内存消耗：137.51kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '17ac48128bf3f620da4acdbb53e25f1d',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'result'[/webdata/api/application/index/controller/Comprehensions.php:18]
+---------------------------------------------------------------
+[ 2017-10-10T14:16:37+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.495073s][吞吐率：0.67req/s] [内存消耗：164.93kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3bd247df7dc8c6049b1561720e951cd3',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:18:22+08:00 ] 104.238.148.249 157.119.232.10 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.272809s][吞吐率：0.79req/s] [内存消耗：138.60kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '4e6376ade23cc31aed26c27b383a6b1c',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: slots[/webdata/api/application/index/controller/Comprehensions.php:19]
+---------------------------------------------------------------
+[ 2017-10-10T14:18:24+08:00 ] 104.238.148.249 157.119.232.10 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.216904s][吞吐率：0.82req/s] [内存消耗：137.51kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '4e6376ade23cc31aed26c27b383a6b1c',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: slots[/webdata/api/application/index/controller/Comprehensions.php:19]
+---------------------------------------------------------------
+[ 2017-10-10T14:18:51+08:00 ] 104.238.148.249 157.119.232.11 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.183792s][吞吐率：0.84req/s] [内存消耗：164.93kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'fc3ca512419d8ed7aaa2497e74b6d40c',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:19:01+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.273470s][吞吐率：0.79req/s] [内存消耗：163.84kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'f60f5e7da6f104ddc08d2586d3db6922',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:21:24+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：6.310190s][吞吐率：0.16req/s] [内存消耗：138.60kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '26a9c039ff085aa6c4ca8b558b30e72f',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: result[/webdata/api/application/index/controller/Comprehensions.php:19]
+---------------------------------------------------------------
+[ 2017-10-10T14:21:27+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：2.097120s][吞吐率：0.48req/s] [内存消耗：163.84kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '26a9c039ff085aa6c4ca8b558b30e72f',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:23:07+08:00 ] 104.238.148.249 157.119.232.7 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：2.009331s][吞吐率：0.50req/s] [内存消耗：164.93kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '86a4cc4140153291ff5266885d5aeea4',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:27:14+08:00 ] 104.238.148.249 157.119.232.8 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.623175s][吞吐率：0.62req/s] [内存消耗：138.60kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '21c6dc0a8ad6b15b8d2ebec031bd3ffa',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: slots[/webdata/api/application/index/controller/Comprehensions.php:19]
+---------------------------------------------------------------
+[ 2017-10-10T14:27:16+08:00 ] 104.238.148.249 157.119.232.5 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.204955s][吞吐率：0.83req/s] [内存消耗：137.51kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '21c6dc0a8ad6b15b8d2ebec031bd3ffa',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: slots[/webdata/api/application/index/controller/Comprehensions.php:19]
+---------------------------------------------------------------
+[ 2017-10-10T14:27:41+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.713139s][吞吐率：0.58req/s] [内存消耗：177.82kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '739822acd87113114ac07e0a501e6922',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:28:32+08:00 ] 104.238.148.249 157.119.232.7 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.834196s][吞吐率：0.55req/s] [内存消耗：164.93kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'd235db63924f4bd9686916af2a0d3061',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:29:29+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.409842s][吞吐率：0.71req/s] [内存消耗：164.93kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '4bb600633a3c914d3ca9ef0e1c6ce364',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:34:36+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.557785s][吞吐率：0.64req/s] [内存消耗：151.12kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'fe6efed9e24153bdf8e57d8103df8d57',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:55:35+08:00 ] 104.238.148.249 157.119.232.12 POST /
+[ info ] api.ullone.com/ [运行时间：1.023082s][吞吐率：0.98req/s] [内存消耗：146.80kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '44b978eb2dd79a69594513c9936262cf',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+49BCB80216CD73D3WA',
+  'x-real-ip' => '183.15.243.254',
+  'x-forwarded-for' => '183.15.243.254',
+  'accept-language' => 'zh-cn',
+  'content-length' => '317',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.243.254',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:55:44+08:00 ] 104.238.148.249 157.119.232.7 POST /
+[ info ] api.ullone.com/ [运行时间：2.034974s][吞吐率：0.49req/s] [内存消耗：188.77kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b7573f092153f1f3c8f6998db147a4d2',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+0A6D608580D7BE59WA',
+  'x-real-ip' => '183.15.243.254',
+  'x-forwarded-for' => '183.15.243.254',
+  'accept-language' => 'zh-cn',
+  'content-length' => '479',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.243.254',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:56:52+08:00 ] 104.238.148.249 157.119.232.11 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.435198s][吞吐率：0.70req/s] [内存消耗：159.16kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '6cc80529356b1ef5d80bc7d6f8f841c0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T14:58:07+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：4.229965s][吞吐率：0.24req/s] [内存消耗：153.42kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'ec74b489edbb998d81a047174c3423cf',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:14:04+08:00 ] 104.238.148.249 157.119.232.7 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：4.494455s][吞吐率：0.22req/s] [内存消耗：148.81kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'aea3b8859ca9c1d5215bbc1e7ec9fa2f',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:14:38+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.818785s][吞吐率：0.55req/s] [内存消耗：153.41kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '41800fd46f82353f508d8d8d649f90e3',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:15:47+08:00 ] 104.238.148.249 157.119.232.10 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.752297s][吞吐率：0.57req/s] [内存消耗：153.41kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '0efe73cf0c5afb61ee491a8412948fbf',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:16:17+08:00 ] 104.238.148.249 157.119.232.11 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.740698s][吞吐率：0.57req/s] [内存消耗：153.41kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b2c368587c59529d021355130c1d6837',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:18:33+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：5.489419s][吞吐率：0.18req/s] [内存消耗：159.05kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '76c11558241d5266cfa47acef21c0022',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:20:03+08:00 ] 104.238.148.249 157.119.232.5 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：2.360779s][吞吐率：0.42req/s] [内存消耗：150.70kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '1bd25263ef0796169d76416be0920da0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:21:00+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：2.368453s][吞吐率：0.42req/s] [内存消耗：153.33kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c69bd9495f8ca11247c36cfebf7db8c2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:25:03+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.528198s][吞吐率：0.65req/s] [内存消耗：138.60kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '69f6210c7a8c3c0e3b4850ca259699b9',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 0[/webdata/api/application/index/controller/Comprehensions.php:23]
+---------------------------------------------------------------
+[ 2017-10-10T15:25:06+08:00 ] 104.238.148.249 157.119.232.8 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：2.290790s][吞吐率：0.44req/s] [内存消耗：137.51kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '69f6210c7a8c3c0e3b4850ca259699b9',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 0[/webdata/api/application/index/controller/Comprehensions.php:23]
+---------------------------------------------------------------
+[ 2017-10-10T15:25:57+08:00 ] 104.238.148.249 157.119.232.11 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.480270s][吞吐率：0.68req/s] [内存消耗：160.41kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '053105ee0474a07dda553764773ad83f',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:27:02+08:00 ] 104.238.148.249 157.119.232.9 POST /
+[ info ] api.ullone.com/ [运行时间：1.020954s][吞吐率：0.98req/s] [内存消耗：147.21kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b1620da4c00ab7b72be07c3a48726729',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.13',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '24746',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/touristappid/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------697440018423422605592424',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:27:19+08:00 ] 104.238.148.249 157.119.232.8 POST /
+[ info ] api.ullone.com/ [运行时间：1.015430s][吞吐率：0.98req/s] [内存消耗：146.13kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '652750d3fd980ccc710614935776d2a4',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.13',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '28278',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/touristappid/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------994653934370834668644562',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:28:13+08:00 ] 104.238.148.249 157.119.232.12 POST /
+[ info ] api.ullone.com/ [运行时间：1.018532s][吞吐率：0.98req/s] [内存消耗：146.13kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7e22857fbdeb0a8234b03f7c4bbdc109',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.13',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '2166',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/touristappid/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------591568303987233475608452',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:29:05+08:00 ] 104.238.148.249 157.119.232.13 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：6.831964s][吞吐率：0.15req/s] [内存消耗：152.80kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '8d845c1ec099c7626c068add0faf4df1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:30:25+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：6.642211s][吞吐率：0.15req/s] [内存消耗：152.80kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '0d27cca5e623e5d7f0550058c90c418b',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:30:27+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：2.729028s][吞吐率：0.37req/s] [内存消耗：152.80kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '9ae70317b86e986deacf0f06c13bc17e',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:30:28+08:00 ] 104.238.148.249 157.119.232.8 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：27.241838s][吞吐率：0.04req/s] [内存消耗：153.58kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '8283f167a67213557976b7f22bb40ae2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'pragma' => 'no-cache',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:30:30+08:00 ] 104.238.148.249 157.119.232.9 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.363156s][吞吐率：0.73req/s] [内存消耗：152.80kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '44609a6a636c9a041c713448bd2a69c3',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:30:32+08:00 ] 104.238.148.249 157.119.232.9 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：4.091844s][吞吐率：0.24req/s] [内存消耗：152.80kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c3bb8cd457be25c750d096ba44069618',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:30:41+08:00 ] 104.238.148.249 157.119.232.5 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：11.003479s][吞吐率：0.09req/s] [内存消耗：153.58kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '2b1b414cef7f6f0ae736a1ee1b506722',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'pragma' => 'no-cache',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:31:22+08:00 ] 104.238.148.249 157.119.232.8 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.458803s][吞吐率：0.69req/s] [内存消耗：152.80kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7c9e1c10a8abee7adbe5976b5e2c4dd2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:34:10+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：305.274704s][吞吐率：0.00req/s] [内存消耗：149.06kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '8283f167a67213557976b7f22bb40ae2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'pragma' => 'no-cache',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:38:27+08:00 ] 104.238.148.249 157.119.232.9 POST /
+[ info ] api.ullone.com/ [运行时间：1.022212s][吞吐率：0.98req/s] [内存消耗：146.13kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '8f25bce48393c0ef8c8561f18dd5e55e',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.13',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '19134',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------693586003944400749562324',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:39:32+08:00 ] 104.238.148.249 157.119.232.13 POST /
+[ info ] api.ullone.com/ [运行时间：3.255131s][吞吐率：0.31req/s] [内存消耗：138.12kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '51d777c96fb687c16be071bc0a277cf0',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '5910',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507621167841',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[/webdata/api/application/index/controller/Comprehensions.php:24]
+---------------------------------------------------------------
+[ 2017-10-10T15:40:26+08:00 ] 104.238.148.249 157.119.232.9 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：601.082667s][吞吐率：0.00req/s] [内存消耗：148.11kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7c9e1c10a8abee7adbe5976b5e2c4dd2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:41:37+08:00 ] 104.238.148.249 157.119.232.7 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：0.004800s][吞吐率：208.33req/s] [内存消耗：134.20kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7d9b029e5042488a0fec2f115cff85c3',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:voiceText[/webdata/api/thinkphp/library/think/App.php:281]
+---------------------------------------------------------------
+[ 2017-10-10T15:41:37+08:00 ] 104.238.148.249 157.119.232.9 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：0.002332s][吞吐率：428.78req/s] [内存消耗：134.20kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7d9b029e5042488a0fec2f115cff85c3',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:voiceText[/webdata/api/thinkphp/library/think/App.php:281]
+---------------------------------------------------------------
+[ 2017-10-10T15:41:48+08:00 ] 104.238.148.249 157.119.232.6 POST /
+[ info ] api.ullone.com/ [运行时间：3.736560s][吞吐率：0.27req/s] [内存消耗：532.66kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'fb6263d4bb712f9f5e55086e4958b677',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '5582',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507621303758',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:45:43+08:00 ] 104.238.148.249 157.119.232.13 POST /
+[ info ] api.ullone.com/ [运行时间：3.710623s][吞吐率：0.27req/s] [内存消耗：345.66kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'af295d7155d33064ef3d10745b3445d2',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+39861B9B9FE68774WA',
+  'x-real-ip' => '183.15.243.254',
+  'x-forwarded-for' => '183.15.243.254',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2699',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.243.254',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T15:47:29+08:00 ] 104.238.148.249 157.119.232.13 POST /
+[ info ] api.ullone.com/ [运行时间：2.156008s][吞吐率：0.46req/s] [内存消耗：136.65kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '4ce137cb89f57a9d1fef919020d1e81c',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+6375759D6E2D35B7WA',
+  'x-real-ip' => '183.15.243.254',
+  'x-forwarded-for' => '183.15.243.254',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2759',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.243.254',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[/webdata/api/application/index/controller/Comprehensions.php:24]
+---------------------------------------------------------------
+[ 2017-10-10T16:27:05+08:00 ] 104.238.148.249 157.119.232.11 POST /
+[ info ] api.ullone.com/ [运行时间：2.781812s][吞吐率：0.36req/s] [内存消耗：294.05kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '4a280c2a488a5907075ba4bf3a8f2e7f',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+CBC373A23F436C7AWA',
+  'x-real-ip' => '183.15.243.254',
+  'x-forwarded-for' => '183.15.243.254',
+  'accept-language' => 'zh-cn',
+  'content-length' => '2081',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.243.254',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:29:05+08:00 ] 104.238.148.249 157.119.232.5 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：0.004872s][吞吐率：205.25req/s] [内存消耗：134.16kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'dc7d84c6e1c7a3e76b4b0652fd212104',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:voiceText[/webdata/api/thinkphp/library/think/App.php:281]
+---------------------------------------------------------------
+[ 2017-10-10T16:29:05+08:00 ] 104.238.148.249 157.119.232.9 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：0.002754s][吞吐率：363.11req/s] [内存消耗：134.16kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'dc7d84c6e1c7a3e76b4b0652fd212104',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:voiceText[/webdata/api/thinkphp/library/think/App.php:281]
+---------------------------------------------------------------
+[ 2017-10-10T16:30:47+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.698607s][吞吐率：0.59req/s] [内存消耗：153.89kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c1e61283c89318f951def6a1872a4616',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:32:26+08:00 ] 104.238.148.249 157.119.232.9 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.746415s][吞吐率：0.57req/s] [内存消耗：159.02kb] [文件加载：25]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c708702148bd14116cd0935fa0063cd2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:34:22+08:00 ] 104.238.148.249 157.119.232.7 GET /index/Comprehensions/semanticComprehension
+[ info ] api.ullone.com/index/Comprehensions/semanticComprehension [运行时间：1.220320s][吞吐率：0.82req/s] [内存消耗：160.38kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Comprehensions',
+    2 => 'semanticComprehension',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3f47de3f182dd80182e4c78aa96a4e0e',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.243.254',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.13',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Comprehensions->semanticComprehension[ /webdata/api/application/index/controller/Comprehensions.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:37:03+08:00 ] 104.238.148.249 157.119.232.9 POST /
+[ info ] api.ullone.com/ [运行时间：2.515787s][吞吐率：0.40req/s] [内存消耗：137.78kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '252297fa8a67cbfb5bb00b316e7c0b6c',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+40CC16EEC6DA7F7AWA',
+  'x-real-ip' => '183.15.243.254',
+  'x-forwarded-for' => '183.15.243.254',
+  'accept-language' => 'zh-cn',
+  'content-length' => '1943',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.243.254',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[/webdata/api/application/index/controller/Comprehensions.php:24]
+---------------------------------------------------------------
+[ 2017-10-10T16:38:31+08:00 ] 104.238.148.249 157.119.232.5 POST /
+[ info ] api.ullone.com/ [运行时间：1.071738s][吞吐率：0.93req/s] [内存消耗：356.86kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'f0414a0d988f027dcf49505d6960b201',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '2631',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507624708946',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:38:43+08:00 ] 104.238.148.249 157.119.232.5 POST /
+[ info ] api.ullone.com/ [运行时间：2.774139s][吞吐率：0.36req/s] [内存消耗：620.65kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'cebb1ad684e923bfb3487d5ad49ab954',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '7132',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507624719144',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:39:07+08:00 ] 104.238.148.249 157.119.232.8 POST /
+[ info ] api.ullone.com/ [运行时间：2.038881s][吞吐率：0.49req/s] [内存消耗：136.69kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '1d8157cc76a93c981207f8c8ebf01895',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+A2266A5852CD047EWA',
+  'x-real-ip' => '183.15.243.254',
+  'x-forwarded-for' => '183.15.243.254',
+  'accept-language' => 'zh-cn',
+  'content-length' => '3083',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.243.254',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[/webdata/api/application/index/controller/Comprehensions.php:24]
+---------------------------------------------------------------
+[ 2017-10-10T16:39:38+08:00 ] 104.238.148.249 157.119.232.9 POST /
+[ info ] api.ullone.com/ [运行时间：3.528631s][吞吐率：0.28req/s] [内存消耗：452.63kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7a1c68a2db6376be8670f55b95ec8201',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '4583',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507624774201',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:39:52+08:00 ] 104.238.148.249 157.119.232.6 POST /
+[ info ] api.ullone.com/ [运行时间：3.005844s][吞吐率：0.33req/s] [内存消耗：470.15kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'eca4fcbe35081de6da253bcfc4491176',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '5043',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507624788408',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:41:17+08:00 ] 104.238.148.249 157.119.232.13 POST /
+[ info ] api.ullone.com/ [运行时间：2.353459s][吞吐率：0.42req/s] [内存消耗：512.55kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'f379c6f33d38a7eda24a0e5276cdc52b',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+228B0040E32E7A21WA',
+  'x-real-ip' => '183.15.243.254',
+  'x-forwarded-for' => '183.15.243.254',
+  'accept-language' => 'zh-cn',
+  'content-length' => '5359',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.243.254',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:44:51+08:00 ] 104.238.148.249 157.119.232.6 POST /
+[ info ] api.ullone.com/ [运行时间：5.330460s][吞吐率：0.19req/s] [内存消耗：282.05kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '82593be8fadc3deb8fc1c38bf8c2fbe1',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+45F3C75B37440235WA',
+  'x-real-ip' => '183.15.243.254',
+  'x-forwarded-for' => '183.15.243.254',
+  'accept-language' => 'zh-cn',
+  'content-length' => '1959',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.243.254',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T16:46:24+08:00 ] 104.238.148.249 157.119.232.11 POST /
+[ info ] api.ullone.com/ [运行时间：2.577708s][吞吐率：0.39req/s] [内存消耗：464.63kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'd67f94ae6c5ab7e142eb674375e94ae0',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043520 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '4792',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1507625180895',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T17:12:49+08:00 ] 104.238.148.249 157.119.232.5 POST /
+[ info ] api.ullone.com/ [运行时间：1.021130s][吞吐率：0.98req/s] [内存消耗：146.13kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '6b029747039eeb6c70f19e816f38e086',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.13',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '20902',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/touristappid/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------036827224597105139530981',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T17:13:02+08:00 ] 104.238.148.249 157.119.232.8 POST /
+[ info ] api.ullone.com/ [运行时间：1.017009s][吞吐率：0.98req/s] [内存消耗：146.13kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'd47b6ef5d259aa4a0460420de167e76c',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.13',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '24154',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/touristappid/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------490083797684547192120651',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T17:22:11+08:00 ] 104.238.148.249 157.119.232.8 POST /
+[ info ] api.ullone.com/ [运行时间：1.020685s][吞吐率：0.98req/s] [内存消耗：146.13kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '12315f9347f78e7e294b740c17e74561',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.13',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '58186',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/touristappid/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------790286933841041270674538',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T17:38:40+08:00 ] 104.238.148.249 157.119.232.6 POST /
+[ info ] api.ullone.com/ [运行时间：1.018459s][吞吐率：0.98req/s] [内存消耗：146.13kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '99a1f6f0e089b30a1a30f977f76c3689',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.13',
+  'x-forwarded-for' => '183.15.243.254',
+  'x-real-ip' => '183.15.243.254',
+  'client-ip' => '183.15.243.254',
+  'content-length' => '31454',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/touristappid/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------809219426059725840053709',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-10T19:32:34+08:00 ] 104.238.148.249 157.119.232.9 POST /
+[ info ] api.ullone.com/ [运行时间：6.429920s][吞吐率：0.16req/s] [内存消耗：432.55kb] [文件加载：28]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c65a9719473ade5efce156fec88feb7a',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.16 NetType/WIFI Language/zh_CN',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+527F884AC30B2FB6WA',
+  'x-real-ip' => '183.14.132.62',
+  'x-forwarded-for' => '183.14.132.62',
+  'accept-language' => 'zh-cn',
+  'content-length' => '4070',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.14.132.62',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.13',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
