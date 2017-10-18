@@ -6,7 +6,7 @@ use app\index\controller\Func;
 
 class Compose {
 
-  public function voiceCompose() {
+  public function voiceComposes() {
     exit('test');
     header("Content-type: audio/mp3");
     $text = urlencode('好的，已经为您记录');
