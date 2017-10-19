@@ -1,5 +1,5 @@
 <?php
-namespace app\index\controller;
+namespace app\index\service;
 
 class Func {
   public static function callBack($code, $msg, $data = null, $isExist = true) {
@@ -60,30 +60,6 @@ class Func {
     else return $data;
   }
 
-  public static function doCurl($url, $method = 'get', $data = null) {
-    $header = [
-      "X-Appid:59c37565",
-      "X-CurTime:".$data['timestamp'],
-      "X-Param:".$data['param'],
-      "X-CheckSum:".$data['checkSum'],
-      "Content-Type:application/x-www-form-urlencoded;charset=utf-8",
-    ];
-  	$ch = curl_init();
-  	curl_setopt($ch, CURLOPT_URL, $url);
-  	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-  	curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
-  	if($method == 'post') {
-  		curl_setopt($ch, CURLOPT_POST, 1);
-  		curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-  	}
-  	$response = curl_exec($ch);
-  	if(curl_errno($ch)){
-  		print curl_error($ch);
-  	}
-  	curl_close($ch);
-    return $response;
-  }
-
   /**
    * 获取API访问授权码
    * @param ak: ak from baidu cloud app
@@ -133,5 +109,28 @@ class Func {
     curl_close($curl);
 
     return $data;
+  }
+
+  public static function doCurl($url, $method = 'get', $data = null) {
+    $header = [
+      "X-Appid:59c37565",
+      "X-CurTime:".$data['timestamp'],
+      "X-Param:".$data['param'],
+      "X-CheckSum:".$data['checkSum'],
+    ];
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+    if($method == 'post') {
+      curl_setopt($ch, CURLOPT_POST, 1);
+      curl_setopt($ch, CURLOPT_POSTFIELDS, $data['text']);
+    }
+    $response = curl_exec($ch);
+    if(curl_errno($ch)){
+      print curl_error($ch);
+    }
+    curl_close($ch);
+    return $response;
   }
 }

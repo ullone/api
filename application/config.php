@@ -101,7 +101,7 @@ return [
     // 域名根，如thinkphp.cn
     'url_domain_root'        => '',
     // 是否自动转换URL中的控制器和操作名
-    'url_convert'            => true,
+    'url_convert'            => false,
     // 默认的访问控制器层
     'url_controller_layer'   => 'controller',
     // 表单请求类型伪装变量
@@ -219,7 +219,7 @@ return [
         // cookie 名称前缀
         'prefix'    => '',
         // cookie 保存时间
-        'expire'    => 0,
+        'expire'    => 3600,
         // cookie 保存路径
         'path'      => '/',
         // cookie 有效域名
@@ -227,7 +227,7 @@ return [
         //  cookie 启用安全传输
         'secure'    => false,
         // httponly设置
-        'httponly'  => '',
+        'httponly'  => true,
         // 是否使用 setcookie
         'setcookie' => true,
     ],
