@@ -15,4 +15,8 @@ class User {
         ->where($data)
         ->value($field);
   }
+
+  public static function addOne($data) {
+    return Db::name('voice')->insertGetId($data);
+  }
 }
