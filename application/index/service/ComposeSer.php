@@ -11,7 +11,6 @@ class ComposeSer {
     $text = urlencode($reply);
     $access_token = Func::getAccessToken('1jzCUFD9pjaysq4TLULYs1Qk','aBQTEe3Pf8YtZaeok5T8nDaAX60CyxOz');
     $token = $access_token;
-    var_dump($token);die;
     $cuid  = uniqid();
     $url   = "http://tsn.baidu.com/text2audio?tex=$text&lan=zh&cuid=$cuid&ctp=1&tok=$access_token";
     $res   = file_get_contents($url);
