@@ -16,7 +16,7 @@ class UploadSer{
     {
         header("Content-Type:text/html; charset=utf-8");
         if($file['upload_tmp_name'] === null) Func::callBack(101,'上传文件为空');
-        $upload_filetype = $this->getFileExt($file['upload_name']);//获取文件扩展名
+        $upload_filetype = self::getFileExt($file['upload_name']);//获取文件扩展名
         exit('test');
         if(in_array($upload_filetype,$file['allow_uploadedfile_type']))//判断文件类型是否符合要求
         {
@@ -50,7 +50,7 @@ class UploadSer{
     *获取文件扩展名
     *@param String $filename 要获取文件名的文件
     */
-    private function getFileExt($filename){
+    private static function getFileExt($filename){
         $info = pathinfo($filename);
         return @$info["extension"];
     }
