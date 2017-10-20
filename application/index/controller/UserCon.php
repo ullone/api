@@ -7,7 +7,7 @@ use app\index\service\UserSer;
 
 class UserCon {
   public function index() {
-    $openid = isset($_POST['openid']) ? $_POST['openid'] : null;
-    UserSer::login($openid);
+    $code = isset($_POST['code']) ? $_POST['code'] : null;
+    UserSer::login($code);
   }
 }

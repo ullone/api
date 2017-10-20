@@ -187,7 +187,15 @@ return [
 
     'cache'                  => [
         // 驱动方式
-        'type'   => 'File',
+        'type'   => 'redis',
+        // 缓存有效期 0表示永久缓存
+        'expire' => 7200,
+        // redis 服务器
+        'host' => 'localhost',
+        // redis 密码
+        'password'=> 'newlif@995',
+        // redis 服务器端口
+        'port' => 6379,
         // 缓存保存目录
         'path'   => CACHE_PATH,
         // 缓存前缀
@@ -205,9 +213,9 @@ return [
         // SESSION_ID的提交变量,解决flash上传跨域
         'var_session_id' => '',
         // SESSION 前缀
-        'prefix'         => 'think',
+        'prefix'         => '',
         // 驱动方式 支持redis memcache memcached
-        'type'           => '',
+        'type'           => 'redis',
         // 是否自动开启 SESSION
         'auto_start'     => true,
     ],
