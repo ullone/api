@@ -24,8 +24,8 @@ class UserSer {
     $rand = self::getUrandom();
     var_dump($rand);die;
 
-    Cache::set($res['session_key'], $res['session_key'].$res['openid'], 7200);
-    Func::callBack(0, '登录成功', $res['session_key']);
+    // Cache::set($res['session_key'], $res['session_key'].$res['openid'], 7200);
+    // Func::callBack(0, '登录成功', $res['session_key']);
   }
 }
 
