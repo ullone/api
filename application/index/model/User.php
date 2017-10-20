@@ -7,7 +7,7 @@ use \think\Db;
 class User {
   public static function find($data, $field = '') {
     if(empty($field))
-      return Db::name('users')
+      return Db::name('user')
         ->where($data)
         ->find();
     else
