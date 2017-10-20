@@ -9,7 +9,7 @@ class UserSer {
   public static function login($code) {
     if($code === null) Func::callBack(301, '获取code失败');
     $url = 'https://api.weixin.qq.com/sns/jscode2session';
-    $data = array(
+    $data['text'] = array(
       'appid' => 'wx61c00f82c85f0036',
       'appsecret' => '97e7d6904e1f52ce70957c62e1756c23',
       'code' => $code,

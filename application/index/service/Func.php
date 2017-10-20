@@ -87,7 +87,7 @@ class Func {
    * @param string $param
    * @return - http response body if succeeds, else false.
   */
-  public static function requestPost($url = '', $param = '') {
+  public static function requestPost($url = '', $param = '', $header) {
     if (empty($url) || empty($param)) {
         return false;
     }
