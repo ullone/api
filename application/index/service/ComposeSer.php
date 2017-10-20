@@ -14,7 +14,7 @@ class ComposeSer {
     $cuid  = uniqid();
     $url   = "http://tsn.baidu.com/text2audio?tex=$text&lan=zh&cuid=$cuid&ctp=1&tok=$access_token";
     $res   = file_get_contents($url);
-    $fp    = fopen('/webdata/api/download/'.$cuid.'.mp3', 'w');
+    $fp    = fopen('/webdata/api/public/download/'.$cuid.'.mp3', 'w');
     if(!$fp) Func::callBack(302, '下载文件失败');
     fwrite($fp, $res);
     fclose($fp);
