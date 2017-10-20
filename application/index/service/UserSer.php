@@ -17,6 +17,7 @@ class UserSer {
     $res = json_decode($res, true);
     if(!isset($res['openid'])) Func::callBack(301, '登陆失败');
     //openid获取成功
+    var_dump($res);die;
     if(!($uid = User::find(array('openid' => $res['openid']), 'id'))) {
       $uid = User::addOne(array('openid' => $res['openid'], 'create_time' => date('Y-m-d H:i:s')));
     }
