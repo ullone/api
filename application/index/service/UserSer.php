@@ -21,7 +21,7 @@ class UserSer {
       $uid = User::addOne(array('openid' => $res['openid'], 'create_time' => date('Y-m-d H:i:s')));
     }
 
-    $rand = self::getUrandom();
+    $rand = UserSer::getUrandom();
     var_dump($rand);die;
 
     // Cache::set($res['session_key'], $res['session_key'].$res['openid'], 7200);
