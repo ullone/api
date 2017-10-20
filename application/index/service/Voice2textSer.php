@@ -4,6 +4,7 @@ namespace app\index\service;
 
 use app\index\service\Func;
 use app\index\service\Comprehensions;
+use app\index\service\ComposeSer;
 
 class Voice2textSer {
 
