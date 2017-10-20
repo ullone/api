@@ -7,6 +7,7 @@ use app\index\service\Func;
 class ComposeSer {
 
   public static function voiceCompose($reply) {
+    exit('test');
     if(empty($reply)) Func::callBack(301, '回复不能为空');
     $text = urlencode($reply);
     $access_token = Func::getAccessToken('1jzCUFD9pjaysq4TLULYs1Qk','aBQTEe3Pf8YtZaeok5T8nDaAX60CyxOz');
