@@ -18,6 +18,7 @@ class VoiceCon {
     $isLogin = $_GET['isLogin'];
     if(!$isLogin) Func::callBack(602, '请先登陆');
     $user = new UserCon();
+    var_dump($isLogin);die;
     $this->userInfo = $user->getUserInfo($isLogin);
     if(!$this->userInfo) Func::callBack(601, '登陆已过期');
   }
