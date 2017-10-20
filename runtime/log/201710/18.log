@@ -274,3 +274,408 @@
 )
 [ info ] [ RUN ] app\index\controller\Compose->voiceCompose[ /webdata/api/application/index/controller/Compose.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T10:04:12+08:00 ] 104.238.148.249 157.119.232.8 GET /index/Compose/voiceCompose
+[ info ] api.ullone.com/index/Compose/voiceCompose [运行时间：0.005082s][吞吐率：196.77req/s] [内存消耗：136.74kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Compose',
+    2 => 'voiceCompose',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c3b33458eda2a01a0fc240716d7e42ca',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.246.228',
+  'x-real-ip' => '183.15.246.228',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.246.228',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T10:04:20+08:00 ] 104.238.148.249 157.119.232.11 GET /index/Compose/voiceComposes
+[ info ] api.ullone.com/index/Compose/voiceComposes [运行时间：2.275576s][吞吐率：0.44req/s] [内存消耗：158.04kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Compose',
+    2 => 'voiceComposes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3ed1beaec093aee732c37cd397a96e41',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.246.228',
+  'x-real-ip' => '183.15.246.228',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.246.228',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Compose->voiceComposes[ /webdata/api/application/index/controller/Compose.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T10:06:22+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Compose/voiceCompose
+[ info ] api.ullone.com/index/Compose/voiceCompose [运行时间：3.158878s][吞吐率：0.32req/s] [内存消耗：158.87kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Compose',
+    2 => 'voiceCompose',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '484e5d9cea883e7a032c896e2bc706e9',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.246.228',
+  'x-real-ip' => '183.15.246.228',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.246.228',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Compose->voiceCompose[ /webdata/api/application/index/controller/Compose.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T10:06:56+08:00 ] 104.238.148.249 157.119.232.6 GET /index/Compose/voiceCompose
+[ info ] api.ullone.com/index/Compose/voiceCompose [运行时间：4.706601s][吞吐率：0.21req/s] [内存消耗：158.33kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Compose',
+    2 => 'voiceCompose',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b78acaef6c7e6c14b89b6a50b0803e05',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.246.228',
+  'x-real-ip' => '183.15.246.228',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.246.228',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Compose->voiceCompose[ /webdata/api/application/index/controller/Compose.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T10:09:00+08:00 ] 104.238.148.249 157.119.232.5 GET /index/Compose/voiceCompose
+[ info ] api.ullone.com/index/Compose/voiceCompose [运行时间：2.019072s][吞吐率：0.50req/s] [内存消耗：149.06kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Compose',
+    2 => 'voiceCompose',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '13b5b93e3a677e649a40408102299dda',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.246.228',
+  'x-real-ip' => '183.15.246.228',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.246.228',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Compose->voiceCompose[ /webdata/api/application/index/controller/Compose.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T10:09:48+08:00 ] 104.238.148.249 157.119.232.12 GET /index/Compose/voiceCompose
+[ info ] api.ullone.com/index/Compose/voiceCompose [运行时间：0.645241s][吞吐率：1.55req/s] [内存消耗：148.48kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Compose',
+    2 => 'voiceCompose',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'af96b092e7d56464359ca9e46cb9578e',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.246.228',
+  'x-real-ip' => '183.15.246.228',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.246.228',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Compose->voiceCompose[ /webdata/api/application/index/controller/Compose.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T10:10:59+08:00 ] 104.238.148.249 157.119.232.8 GET /index/Compose/voiceCompose
+[ info ] api.ullone.com/index/Compose/voiceCompose [运行时间：0.638586s][吞吐率：1.57req/s] [内存消耗：148.98kb] [文件加载：26]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Compose',
+    2 => 'voiceCompose',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '9536318b0dc0a9295e6df35a0cc6fbb4',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.246.228',
+  'x-real-ip' => '183.15.246.228',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.246.228',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Compose->voiceCompose[ /webdata/api/application/index/controller/Compose.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T10:50:58+08:00 ] 104.238.148.249 157.119.232.5 POST /
+[ info ] api.ullone.com/ [运行时间：1.567115s][吞吐率：0.64req/s] [内存消耗：705.09kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b601ce36dde5db955db9ecb985ee10e7',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_TW',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+84A07C03B5653CE4WA',
+  'x-real-ip' => '183.15.246.228',
+  'x-forwarded-for' => '183.15.246.228',
+  'accept-language' => 'zh-cn',
+  'content-length' => '6397',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.246.228',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T14:42:14+08:00 ] 104.238.148.249 157.119.232.13 POST /
+[ info ] api.ullone.com/ [运行时间：1.285299s][吞吐率：0.78req/s] [内存消耗：445.09kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '02a4125c578d15497199e888dea8cf5c',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_TW',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+FEF3EA7F218C70B4WA',
+  'x-real-ip' => '183.15.246.228',
+  'x-forwarded-for' => '183.15.246.228',
+  'accept-language' => 'zh-cn',
+  'content-length' => '4234',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.246.228',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T15:20:58+08:00 ] 104.238.148.249 157.119.232.5 POST /
+[ info ] api.ullone.com/ [运行时间：2.712565s][吞吐率：0.37req/s] [内存消耗：729.09kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '69f872c68dd3d1aaccc9232575824a73',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 MicroMessenger/6.5.18 NetType/WIFI Language/zh_TW',
+  'content-type' => 'multipart/form-data; boundary=WABoundary+EDE040FC3499007BWA',
+  'x-real-ip' => '183.15.246.228',
+  'x-forwarded-for' => '183.15.246.228',
+  'accept-language' => 'zh-cn',
+  'content-length' => '7583',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.246.228',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-18T16:31:57+08:00 ] 104.238.148.249 157.119.232.11 GET /
+[ info ] api.ullone.com/ [运行时间：0.003974s][吞吐率：251.64req/s] [内存消耗：134.23kb] [文件加载：32]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '170dbb84dbc55d88025243bfce7f8e02',
+  'x-forwarded-for' => '116.192.67.249',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'x-edge-retry-times' => '-',
+  'x-real-ip' => '116.192.67.249',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '116.192.67.249',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: file[/webdata/api/application/index/controller/Upload.php:21]
+---------------------------------------------------------------
+[ 2017-10-18T16:31:58+08:00 ] 104.238.148.249 157.119.232.11 GET /
+[ info ] api.ullone.com/ [运行时间：0.002379s][吞吐率：420.36req/s] [内存消耗：134.23kb] [文件加载：32]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '170dbb84dbc55d88025243bfce7f8e02',
+  'x-forwarded-for' => '116.192.67.249',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'x-edge-retry-times' => '-',
+  'x-real-ip' => '116.192.67.249',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '116.192.67.249',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/api/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: file[/webdata/api/application/index/controller/Upload.php:21]

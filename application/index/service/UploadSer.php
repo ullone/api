@@ -1,5 +1,5 @@
 <?php
-namespace app\index\controller;
+namespace app\index\service;
 
 use app\index\service\Func;
 use app\index\service\Comprehensions;
@@ -19,9 +19,10 @@ class UploadSer{
         $upload_filetype = self::getFileExt($file['upload_name']);//获取文件扩展名
         if(in_array($upload_filetype,$file['allow_uploadedfile_type']))//判断文件类型是否符合要求
         {
-          exit('haha');
+var_dump($this->allow_uploaded_maxsize);die;
             if($file['upload_file_size'] < $this->allow_uploaded_maxsize)//判断文件大小是否超过允许的最大值
             {
+exit();
                 if(!is_dir($this->upload_target_dir))//如果文件上传目录不存在
                 {
                     mkdir($this->upload_target_dir);//创建文件上传目录
