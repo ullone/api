@@ -19,6 +19,7 @@ class UserSer {
       "content-type:application/x-www-form-urlencoded"
     ];
     $res = Func::doCurl($url, 'post', $data, $header);
+    var_dump($res);die;
     if(empty($res)) Func::callBack(301, '登陆失败');
     else Func::callBack(0, '成功');
     if(!($uid = User::find(array('openid' => $openid), 'id'))) {
