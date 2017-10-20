@@ -6,31 +6,27 @@ use app\index\service\Comprehensions;
 use app\index\service\Voice2text;
 
 class UploadSer{
-    public $upload_final_name;              //上传文件的最终文件名
-    public $upload_target_dir = "/webdata/api/upload/silk-v3-decoder-master/upload";//文件被上传到的目标目录
-    public $upload_target_path;             //文件被上传到的最终路径
-    public $allow_uploaded_maxsize=10000000;//允许上传文件的最大值
 
     //文件上传
     public static function upload($file)
     {
+        $upload_target_dir = "/webdata/api/upload/silk-v3-decoder-master/upload";
+        $allow_uploaded_maxsize=10000000;
         header("Content-Type:text/html; charset=utf-8");
         if($file['upload_tmp_name'] === null) Func::callBack(101,'上传文件为空');
         $upload_filetype = self::getFileExt($file['upload_name']);//获取文件扩展名
         if(in_array($upload_filetype,$file['allow_uploadedfile_type']))//判断文件类型是否符合要求
         {
-var_dump($this->allow_uploaded_maxsize);die;
-            if($file['upload_file_size'] < $this->allow_uploaded_maxsize)//判断文件大小是否超过允许的最大值
+            if($file['upload_file_size'] < $allow_uploaded_maxsize)//判断文件大小是否超过允许的最大值
             {
-exit();
-                if(!is_dir($this->upload_target_dir))//如果文件上传目录不存在
+                if(!is_dir($upload_target_dir))//如果文件上传目录不存在
                 {
-                    mkdir($this->upload_target_dir);//创建文件上传目录
-                    chmod($this->upload_target_dir, 0777);//改权限
+                    mkdir($upload_target_dir);//创建文件上传目录
+                    chmod($upload_target_dir, 0777);//改权限
                 }
-                $this->upload_final_name = date("YmdHis").rand(0,100).'.'.$upload_filetype;//生成随机文件名
-                $this->upload_target_path = $this->upload_target_dir."/".$this->upload_final_name;//文件上传目标目录
-                if(!move_uploaded_file($file['upload_tmp_name'], $this->upload_target_path))//文件移动失败
+                $upload_final_name = date("YmdHis").rand(0,100).'.'.$upload_filetype;//生成随机文件名
+                $upload_target_path = $upload_target_dir."/".$upload_final_name;//文件上传目标目录
+                if(!move_uploaded_file($file['upload_tmp_name'], $upload_target_path))//文件移动失败
                 {
                     Func::callBack(104, '上传文件失败，请检查文件权限');
                 }
@@ -38,8 +34,8 @@ exit();
                 {
                   //上传成功，返回文件绝对路径
                   return array(
-                    'dir'  => $this->upload_target_dir,
-                    'name' => $this->upload_final_name
+                    'dir'  => $upload_target_dir,
+                    'name' => $upload_final_name
                   );
                 }
             }
