@@ -21,11 +21,14 @@ class UserSer {
       $uid = User::addOne(array('openid' => $res['openid'], 'create_time' => date('Y-m-d H:i:s')));
     }
 
-    $rand = Func::getUrandom();
-    $rand = substr(md5($rand), 0, 16);
-    var_dump($rand);die;
-
-    // Cache::set($res['session_key'], $res['session_key'].$res['openid'], 7200);
-    // Func::callBack(0, '登录成功', $res['session_key']);
+    $rand    = Func::getUrandom();
+    $session = substr(md5($rand), 0, 16);
+    $userInfo = array(
+      'uid' => $uid,
+      'session_key' => $res['session_key'],
+      'openid' => $res['openid']
+    );
+    Cache::set($session, $userInfo, 7200);
+    Func::callBack(0, '登录成功', $session);
   }
 }
