@@ -3,6 +3,7 @@
 namespace app\index\controller;
 
 use \think\Cookie;
+use \think\Cache;
 use app\index\service\UserSer;
 
 class UserCon {
