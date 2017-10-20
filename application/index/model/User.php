@@ -7,7 +7,7 @@ use \think\Db;
 class User {
   public static function find($data, $field = '') {
     if(empty($field))
-      return Db::name('user')
+      return Db::name('users')
         ->where($data)
         ->find();
     else
@@ -17,6 +17,6 @@ class User {
   }
 
   public static function addOne($data) {
-    return Db::name('voice')->insertGetId($data);
+    return Db::name('users')->insertGetId($data);
   }
 }
