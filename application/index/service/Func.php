@@ -112,14 +112,6 @@ class Func {
   }
 
   public static function doCurl($url, $method = 'get', $data = null, $header = null) {
-    // if($header === null) {
-    //   $header = [
-    //     "X-Appid:59c37565",
-    //     "X-CurTime:".$data['timestamp'],
-    //     "X-Param:".$data['param'],
-    //     "X-CheckSum:".$data['checkSum'],
-    //   ];
-    // }
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
