@@ -7,7 +7,6 @@ use app\index\service\Func;
 
 class UserSer {
   public static function login($code) {
-    var_dump($code);die;
     if($code === null) Func::callBack(301, '获取code失败');
     $url = 'https://api.weixin.qq.com/sns/jscode2session';
     $data = array(
