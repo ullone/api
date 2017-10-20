@@ -5,7 +5,7 @@ use app\index\service\Func;
 use app\index\service\Comprehensions;
 use app\index\service\Voice2text;
 
-class Upload{
+class UploadSer{
     public $upload_final_name;              //上传文件的最终文件名
     public $upload_target_dir = "/webdata/api/upload/silk-v3-decoder-master/upload";//文件被上传到的目标目录
     public $upload_target_path;             //文件被上传到的最终路径
