@@ -50,7 +50,7 @@ class UploadSer{
     *获取文件扩展名
     *@param String $filename 要获取文件名的文件
     */
-    private static function getFileExt($filename){
+    public static function getFileExt($filename){
         $info = pathinfo($filename);
         return @$info["extension"];
     }
