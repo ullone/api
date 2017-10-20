@@ -26,7 +26,7 @@ class UserSer {
       $uid = User::addOne(array('openid' => $openid, 'create_time' => date('Y-m-d H:i:s')));
     }
     $token = uniqid().$uid;
-    Cookie::set()
-    var_dump($uid);die;
+    // Cookie::set()
+    // var_dump($uid);die;
   }
 }
