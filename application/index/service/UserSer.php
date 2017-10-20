@@ -4,6 +4,7 @@ namespace app\index\service;
 
 use app\index\model\User;
 use app\index\service\Func;
+use \think\Cache;
 
 class UserSer {
   public static function login($code) {
@@ -14,14 +15,21 @@ class UserSer {
     ];
     $res = Func::doCurl($url, 'get', '', $header);
     $res = json_decode($res, true);
-    var_dump($res);die;
-    if(empty($res)) Func::callBack(301, '登陆失败');
-    else Func::callBack(0, '成功', $res);
-    if(!($uid = User::find(array('openid' => $openid), 'id'))) {
-      $uid = User::addOne(array('openid' => $openid, 'create_time' => date('Y-m-d H:i:s')));
+    if(!isset($res['openid'])) Func::callBack(301, '登陆失败');
+    //openid获取成功
+    if(!($uid = User::find(array('openid' => $res['openid']), 'id'))) {
+      $uid = User::addOne(array('openid' => $res['openid'], 'create_time' => date('Y-m-d H:i:s')));
     }
-    $token = uniqid().$uid;
-    // Cookie::set()
-    // var_dump($uid);die;
+
+    $pr_bits = '';
+    $fp = @fopen('/dev/urandom','rb');
+    if ($fp !== FALSE) {
+        $pr_bits .= @fread($fp, 16);
+        @fclose($fp);
+    }
+    var_dump($pr_bits);die;
+
+    Cache::set($res['session_key'], $res['session_key'].$res['openid'], 7200);
+    Func::callBack(0, '登录成功', $res['session_key']);
   }
 }
