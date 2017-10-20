@@ -22,7 +22,7 @@ class UserSer {
     }
 
     $rand = Func::getUrandom();
-    $rand = md5($rand);
+    $rand = substr(md5($rand), 0, 16);
     var_dump($rand);die;
 
     // Cache::set($res['session_key'], $res['session_key'].$res['openid'], 7200);
