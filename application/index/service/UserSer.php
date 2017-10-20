@@ -21,41 +21,10 @@ class UserSer {
       $uid = User::addOne(array('openid' => $res['openid'], 'create_time' => date('Y-m-d H:i:s')));
     }
 
-    $rand = UserSer::getUrandom();
+    $rand = Func::getUrandom();
     var_dump($rand);die;
 
     // Cache::set($res['session_key'], $res['session_key'].$res['openid'], 7200);
     // Func::callBack(0, '登录成功', $res['session_key']);
-  }
-
-  public static function getUrandom($min = 0, $max = 0x7FFFFFFF)
-  {
-          $diff = $max - $min;
-          if ($diff > PHP_INT_MAX) {
-              throw new RuntimeException('Bad Range');
-          }
-
-          $fh = fopen('/dev/urandom', 'r');
-          stream_set_read_buffer($fh, PHP_INT_SIZE);
-          $bytes = fread($fh, PHP_INT_SIZE );
-          if ($bytes === false || strlen($bytes) != PHP_INT_SIZE ) {
-              //throw new RuntimeException("nable to get". PHP_INT_SIZE . "bytes");
-              return 0;
-          }
-          fclose($fh);
-
-          if (PHP_INT_SIZE == 8) { // 64-bit versions
-              list($higher, $lower) = array_values(unpack('N2', $bytes));
-              $value = $higher << 32 | $lower;
-          }
-          else { // 32-bit versions
-              list($value) = array_values(unpack('Nint', $bytes));
-
-          }
-
-          $val = $value & PHP_INT_MAX;
-          $fp = (float)$val / PHP_INT_MAX; // convert to [0,1]
-
-          return (int)(round($fp * $diff) + $min);
   }
 }
