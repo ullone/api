@@ -17,6 +17,7 @@ class UploadSer{
         header("Content-Type:text/html; charset=utf-8");
         if($file['upload_tmp_name'] === null) Func::callBack(101,'上传文件为空');
         $upload_filetype = $this->getFileExt($file['upload_name']);//获取文件扩展名
+        var_dump($file['upload_tmp_name']);die;
         if(in_array($upload_filetype,$file['allow_uploadedfile_type']))//判断文件类型是否符合要求
         {
             if($file['upload_file_size'] < $this->allow_uploaded_maxsize)//判断文件大小是否超过允许的最大值
