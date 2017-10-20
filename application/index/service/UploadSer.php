@@ -28,6 +28,7 @@ class UploadSer{
                 }
                 $this->upload_final_name = date("YmdHis").rand(0,100).'.'.$upload_filetype;//生成随机文件名
                 $this->upload_target_path = $this->upload_target_dir."/".$this->upload_final_name;//文件上传目标目录
+                exit('haha');
                 if(!move_uploaded_file($file['upload_tmp_name'], $this->upload_target_path))//文件移动失败
                 {
                     Func::callBack(104, '上传文件失败，请检查文件权限');
