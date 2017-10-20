@@ -37,8 +37,8 @@ class VoiceCon {
       'allow_uploadedfile_type' => array('jpeg','silk','jpg','png','gif','doc','zip','rar','txt')
     );
     $res = array();
-    $res = UploadSer::upload($data);
     var_dump($res);die;
+    $res = UploadSer::upload($data);
   }
 
   private function silkToText($data) {
