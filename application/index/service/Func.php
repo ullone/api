@@ -115,7 +115,8 @@ class Func {
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+    if(!empty($header))
+      curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
     if($method == 'post') {
       curl_setopt($ch, CURLOPT_POST, 1);
       curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
