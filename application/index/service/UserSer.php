@@ -17,13 +17,12 @@ class UserSer {
     $res = json_decode($res, true);
     if(!isset($res['openid'])) Func::callBack(301, '登陆失败');
     //openid获取成功
-    var_dump($res);die;
-    // if(!($uid = User::find(array('openid' => $res['openid']), 'id'))) {
-    //   $uid = User::addOne(array('openid' => $res['openid'], 'create_time' => date('Y-m-d H:i:s')));
-    // }
+    if(!($uid = User::find(array('openid' => $res['openid']), 'id'))) {
+      $uid = User::addOne(array('openid' => $res['openid'], 'create_time' => date('Y-m-d H:i:s')));
+    }
 
-    // $rand = UserSer::getUrandom();
-    // var_dump($uid);die;
+    $rand = UserSer::getUrandom();
+    var_dump($uid);die;
 
     // Cache::set($res['session_key'], $res['session_key'].$res['openid'], 7200);
     // Func::callBack(0, '登录成功', $res['session_key']);
@@ -31,7 +30,6 @@ class UserSer {
 
   public static function getUrandom($min = 0, $max = 0x7FFFFFFF)
   {
-    return 1;
           $diff = $max - $min;
           if ($diff > PHP_INT_MAX) {
               throw new RuntimeException('Bad Range');
