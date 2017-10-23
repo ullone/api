@@ -15,7 +15,7 @@ class VoiceCon {
   private $userInfo;
 
   public function __construct() {
-    $isLogin = isset($_GET['isLogin']) ? $_GET['isLogin'] : null;
+    $isLogin = $_GET['isLogin'];
     if(!$isLogin) Func::callBack(602, '请先登陆');
     $user = new UserCon();
     $this->userInfo = $user->getUserInfo($isLogin);
@@ -38,17 +38,10 @@ class VoiceCon {
     );
     $res = array();
     $res = UploadSer::upload($data);
-    var_dump($res);die;
-    // echo $res;die;
-    // $this->silkToText($res);
+    $this->silkToText($res);
   }
 
-  public function silkToText() {
-    var_dump($_POST);die;
-    $data = array();
-    $data['dir']  = isset($_POST['dir']) ? $_POST['dir'] : null;
-    $data['name'] = isset($_POST['name']) ? $_POST['name'] : null;
-    var_dump($data);die;
+  private function silkToText($data) {
     $file = UploadSer::silkToWav($data['dir'], $data['name']);
     $text = Voice2textSer::voiceToText($file);
     $data = ComprehensionSer::semanticComprehension($text, $this->userInfo['uid']);
