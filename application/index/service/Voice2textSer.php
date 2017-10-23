@@ -30,6 +30,12 @@ class Voice2textSer {
       Func::callBack(107, '调用讯飞语音接口失败，请检查参数');
     if(empty($data['data']['result'])) {
       $file = ComposeSer::voiceCompose('很抱歉，这句话我难以理解!,请重新录制');
+      $data = array(
+        'code' => 108,
+        'msg'  => '语音识别失败',
+        'file' => $file
+      );
+      var_dump($data);die;
       Func::callBack(108, '语音识别失败', $file);
     }
     return $data['data']['result'];
