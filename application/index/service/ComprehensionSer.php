@@ -33,10 +33,10 @@ class ComprehensionSer {
       'work' => '',
       'time' => ''
     );
-    var_dump($data);die;
+    // var_dump($data);die;
     for($i = 0;$i < count($data);$i ++) {
-      if($data[$i]['user_when']) $res['time'] = $data[$i]['normalized_word'];
-      elseif($data[$i]['user_event']) $res['work'] .= $data[$i]['normalized_word'];
+      if($data[$i]['type'] === 'user_when') $res['time'] = $data[$i]['normalized_word'];
+      elseif($data[$i]['type'] === 'user_event') $res['work'] .= $data[$i]['normalized_word'];
     }
     if(!empty($res['time'])) {
       if(strlen($res['time']) === 19) {
