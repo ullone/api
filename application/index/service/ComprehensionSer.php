@@ -37,8 +37,6 @@ class ComprehensionSer {
       if($data[$i]['type'] === 'user_when') $res['time'] = $data[$i]['normalized_word'];
       elseif($data[$i]['type'] === 'user_event') $res['work'] .= $data[$i]['normalized_word'];
     }
-    //$time = '';
-    //$oclock = '';
     if(!empty($res['time'])) {
       if(strlen($res['time']) == 19) {
         $time   = strstr($res['time'], '|', true);
