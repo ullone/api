@@ -45,7 +45,6 @@ class VoiceCon {
     $file = UploadSer::silkToWav($data['dir'], $data['name']);
     $text = Voice2textSer::voiceToText($file);
     $data = ComprehensionSer::semanticComprehension($text, $this->userInfo['uid']);
-    var_dump($data);die;
     ComprehensionSer::reply($data, $this->userInfo['uid']);
   }
 
