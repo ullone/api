@@ -24,7 +24,7 @@ class VoiceCon {
 
   public function index() {
     $data = $this->upload();
-    $this->silkToText($data);
+    // $this->silkToText($data);
   }
 
   private function upload() {
@@ -38,6 +38,7 @@ class VoiceCon {
     );
     $res = array();
     $res = UploadSer::upload($data);
+    exit($res);
     $this->silkToText($res);
   }
 
