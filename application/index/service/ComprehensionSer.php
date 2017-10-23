@@ -39,7 +39,7 @@ class ComprehensionSer {
     }
     if(!empty($res['time'])) {
       if(strlen($res['time']) === 19) {
-        $time   = strstr($res['time']), '|', true);
+        $time   = strstr($res['time'], '|', true);
         $oclock = substr($res['time'], strpos($res['time']), '|') + 1, 5);
       } elseif(strlen($res['time'] === 10)) $time   = $res['time'];
       elseif(strlen($res['time'] === 8)) $oclock = $res['time'];
