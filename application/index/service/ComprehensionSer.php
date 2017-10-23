@@ -33,7 +33,6 @@ class ComprehensionSer {
       'work' => '',
       'time' => ''
     );
-    // var_dump($data);die;
     for($i = 0;$i < count($data);$i ++) {
       if($data[$i]['type'] === 'user_when') $res['time'] = $data[$i]['normalized_word'];
       elseif($data[$i]['type'] === 'user_event') $res['work'] .= $data[$i]['normalized_word'];
