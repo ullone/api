@@ -38,7 +38,8 @@ class VoiceCon {
     );
     $res = array();
     $res = UploadSer::upload($data);
-    echo $res;die;
+    return $res;
+    // echo $res;die;
     // $this->silkToText($res);
   }
 
