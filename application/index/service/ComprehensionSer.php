@@ -33,21 +33,20 @@ class ComprehensionSer {
       'work' => '',
       'time' => ''
     );
-    // var_dump($data);die;
     for($i = 0;$i < count($data);$i ++) {
       if($data[$i]['type'] === 'user_when') $res['time'] = $data[$i]['normalized_word'];
       elseif($data[$i]['type'] === 'user_event') $res['work'] .= $data[$i]['normalized_word'];
     }
-    var_dump($res);die;
+    //$time = '';
+    //$oclock = '';
     if(!empty($res['time'])) {
-      if(strlen($res['time']) === 19) {
+      if(strlen($res['time']) == 19) {
         $time   = strstr($res['time'], '|', true);
         $oclock = substr($res['time'], strpos($res['time'], '|') + 1, 5);
-      } elseif(strlen($res['time'] === 10)) $time = $res['time'];
-      elseif(strlen($res['time'] === 8)) $oclock = $res['time'];
+      } elseif(strlen($res['time']) == 10) $time = $res['time'];
+      elseif(strlen($res['time']) == 8) $oclock = $res['time'];
+      else exit('时间格式错误');
     }
-    var_dump($time);
-    var_dump($oclock);die;
     if(empty(Cache::get('vid'.$uid))) {
       //第一次会话
       if(isset($time) && isset($oclock) && !empty($res['work'])) {
@@ -95,7 +94,6 @@ class ComprehensionSer {
           ));
           Cache::set('vid'.$uid, $vid, 120);
           $file = ComposeSer::voiceCompose('好的，什么事情呢');
-          Func::callBack(0, '记录成功', $file);
         }
       } else {
         if(isset($time) && !isset($oclock)) {
