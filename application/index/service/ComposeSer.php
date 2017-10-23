@@ -18,6 +18,6 @@ class ComposeSer {
     if(!$fp) Func::callBack(302, '下载文件失败');
     fwrite($fp, $res);
     fclose($fp);
-    return '/webdata/api/download/'.$cuid.'.mp3';
+    return 'https://api.ullone.com/download/'.$cuid.'.mp3';
   }
 }

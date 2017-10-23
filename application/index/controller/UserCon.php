@@ -2,10 +2,10 @@
 
 namespace app\index\controller;
 
-use \think\Cookie;
 use \think\Cache;
 use app\index\service\UserSer;
 use app\index\service\ComposeSer;
+use app\index\service\Comprehensions;
 
 class UserCon {
 
@@ -20,7 +20,7 @@ class UserCon {
   }
 
   public function test() {
-    $file = ComposeSer::voiceCompose('很抱歉，这句话我不理解');
+    $file = ComprehensionSer::semanticComprehension('明天我要去西藏');
     var_dump($file);die;
   }
 }
