@@ -44,6 +44,7 @@ class VoiceCon {
   }
 
   public function silkToText() {
+    var_dump($_POST);die;
     $data = array();
     $data['dir']  = isset($_POST['dir']) ? $_POST['dir'] : null;
     $data['name'] = isset($_POST['name']) ? $_POST['name'] : null;
