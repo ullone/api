@@ -1,0 +1,1810 @@
+---------------------------------------------------------------
+[ 2017-10-23T09:56:00+08:00 ] 104.238.148.249 157.119.232.11 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.004452s][吞吐率：224.62req/s] [内存消耗：136.75kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7b48bd9685c9f8495a0a80c0f2824782',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\ComprehensionSer' not found[/webdata/api/application/index/controller/UserCon.php:24]
+---------------------------------------------------------------
+[ 2017-10-23T09:56:00+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.002531s][吞吐率：395.09req/s] [内存消耗：135.68kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7b48bd9685c9f8495a0a80c0f2824782',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\ComprehensionSer' not found[/webdata/api/application/index/controller/UserCon.php:24]
+---------------------------------------------------------------
+[ 2017-10-23T09:59:22+08:00 ] 104.238.148.249 157.119.232.7 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.004735s][吞吐率：211.19req/s] [内存消耗：136.49kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3063782a2dd79e73e7d2aef81d1349ba',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ','[/webdata/api/application/index/service/ComprehensionSer.php:42]
+---------------------------------------------------------------
+[ 2017-10-23T09:59:22+08:00 ] 104.238.148.249 157.119.232.5 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.003156s][吞吐率：316.86req/s] [内存消耗：135.73kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3063782a2dd79e73e7d2aef81d1349ba',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ','[/webdata/api/application/index/service/ComprehensionSer.php:42]
+---------------------------------------------------------------
+[ 2017-10-23T10:02:26+08:00 ] 104.238.148.249 157.119.232.9 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.004774s][吞吐率：209.46req/s] [内存消耗：135.73kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'eb4fd08f53e58ea30e30361119a2504b',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ','[/webdata/api/application/index/service/ComprehensionSer.php:43]
+---------------------------------------------------------------
+[ 2017-10-23T10:02:26+08:00 ] 104.238.148.249 157.119.232.9 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.002156s][吞吐率：463.82req/s] [内存消耗：135.73kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'eb4fd08f53e58ea30e30361119a2504b',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ','[/webdata/api/application/index/service/ComprehensionSer.php:43]
+---------------------------------------------------------------
+[ 2017-10-23T10:03:13+08:00 ] 104.238.148.249 157.119.232.8 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：2.936807s][吞吐率：0.34req/s] [内存消耗：140.35kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3ac91c464ed7421f4ce33d17f83df2e6',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: user_when[/webdata/api/application/index/service/ComprehensionSer.php:37]
+---------------------------------------------------------------
+[ 2017-10-23T10:03:18+08:00 ] 104.238.148.249 157.119.232.13 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：4.217711s][吞吐率：0.24req/s] [内存消耗：139.26kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3ac91c464ed7421f4ce33d17f83df2e6',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: user_when[/webdata/api/application/index/service/ComprehensionSer.php:37]
+---------------------------------------------------------------
+[ 2017-10-23T10:05:00+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.044043s][吞吐率：0.96req/s] [内存消耗：151.27kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '89a4dbb9e0544724483bb0058177193b',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:06:46+08:00 ] 104.238.148.249 157.119.232.7 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.027724s][吞吐率：0.97req/s] [内存消耗：151.18kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '473f35f1b8424517797045a595c6383a',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:09:12+08:00 ] 104.238.148.249 157.119.232.8 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：2.668173s][吞吐率：0.37req/s] [内存消耗：272.05kb] [文件加载：45]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'a81aae418355b91e60ed73372688a6c4',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001395s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `voice` [ RunTime:0.002986s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE8\xA6\x81\xE5\x8E\xBB...' for column 'work' at row 1[/webdata/api/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2017-10-23T10:09:13+08:00 ] 104.238.148.249 157.119.232.8 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.618278s][吞吐率：0.62req/s] [内存消耗：270.69kb] [文件加载：45]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'a81aae418355b91e60ed73372688a6c4',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `voice` [ RunTime:0.000997s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE8\xA6\x81\xE5\x8E\xBB...' for column 'work' at row 1[/webdata/api/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2017-10-23T10:23:28+08:00 ] 104.238.148.249 157.119.232.11 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.871164s][吞吐率：0.53req/s] [内存消耗：151.20kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'a43b6d0a2edca47d27a8e58af56457a9',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:24:46+08:00 ] 104.238.148.249 157.119.232.13 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.043665s][吞吐率：0.96req/s] [内存消耗：140.34kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'ff2cf51d52de72fb1872f93cec03f7fd',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.15',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: time[/webdata/api/application/index/service/ComprehensionSer.php:48]
+---------------------------------------------------------------
+[ 2017-10-23T10:24:47+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.962284s][吞吐率：1.04req/s] [内存消耗：139.24kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'ff2cf51d52de72fb1872f93cec03f7fd',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.15',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: time[/webdata/api/application/index/service/ComprehensionSer.php:48]
+---------------------------------------------------------------
+[ 2017-10-23T10:26:08+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.892513s][吞吐率：0.53req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '4fe0b59061220832a28dbf6b5b965fb5',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:31:39+08:00 ] 104.238.148.249 157.119.232.9 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.302884s][吞吐率：0.77req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '56443eff9e580fd1e849371984dc8d56',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:33:11+08:00 ] 104.238.148.249 157.119.232.11 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.073080s][吞吐率：0.93req/s] [内存消耗：140.34kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '155bc434eb525e5dfb9cf29c4d9fe406',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: time[/webdata/api/application/index/service/ComprehensionSer.php:47]
+---------------------------------------------------------------
+[ 2017-10-23T10:33:13+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.500216s][吞吐率：0.67req/s] [内存消耗：139.24kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '155bc434eb525e5dfb9cf29c4d9fe406',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: time[/webdata/api/application/index/service/ComprehensionSer.php:47]
+---------------------------------------------------------------
+[ 2017-10-23T10:36:15+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.986005s][吞吐率：1.01req/s] [内存消耗：140.34kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '62f6b367e094ee4cb1f9da7eb07d89c0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: time[/webdata/api/application/index/service/ComprehensionSer.php:49]
+---------------------------------------------------------------
+[ 2017-10-23T10:36:17+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.467981s][吞吐率：0.68req/s] [内存消耗：139.24kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '62f6b367e094ee4cb1f9da7eb07d89c0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: time[/webdata/api/application/index/service/ComprehensionSer.php:49]
+---------------------------------------------------------------
+[ 2017-10-23T10:37:38+08:00 ] 104.238.148.249 157.119.232.13 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.960208s][吞吐率：0.51req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'a5eb0b35acd4617d2c4ab966b1bea910',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:38:16+08:00 ] 104.238.148.249 157.119.232.7 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.007116s][吞吐率：0.99req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '19a04009030735414402e82a1d66f987',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:39:37+08:00 ] 104.238.148.249 157.119.232.9 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.961874s][吞吐率：1.04req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'bff383dffe65addcbd3b873ba5af3e83',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:39:51+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.031794s][吞吐率：0.97req/s] [内存消耗：151.29kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '5d6ccebd78304408330f1c13308bc497',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'pragma' => 'no-cache',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:39:52+08:00 ] 104.238.148.249 157.119.232.5 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.996747s][吞吐率：1.00req/s] [内存消耗：151.29kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '9c37513e6d4d5556f054d310444d4f88',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'pragma' => 'no-cache',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:39:54+08:00 ] 104.238.148.249 157.119.232.11 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.029361s][吞吐率：0.97req/s] [内存消耗：151.29kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '6cb24ec021dfcec65247fe3b0866ed3d',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'pragma' => 'no-cache',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:39:57+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.931827s][吞吐率：1.07req/s] [内存消耗：151.29kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'd092a7f680f50868d3f7077ae0bcb737',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'pragma' => 'no-cache',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:41:45+08:00 ] 104.238.148.249 157.119.232.6 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.236950s][吞吐率：0.81req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '9329dad1e1856b48ef5cbe4ca0392e2c',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:43:23+08:00 ] 104.238.148.249 157.119.232.13 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.757067s][吞吐率：0.57req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7931866b2cc577c2a9589b4deed7c1e8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:50:41+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.695788s][吞吐率：0.59req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '6d2cf0ebc39a0672a9b83ec23818205b',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:50:47+08:00 ] 104.238.148.249 157.119.232.9 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：2.508215s][吞吐率：0.40req/s] [内存消耗：150.51kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '836e9a28a712c3b5073122703f6874ad',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:50:48+08:00 ] 104.238.148.249 157.119.232.6 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.423402s][吞吐率：0.70req/s] [内存消耗：150.51kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'fc323e8f33a1df378853700732a78117',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:53:26+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.017122s][吞吐率：0.98req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'd19720c8d46632ace57a0f5f5660830d',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:55:27+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.004467s][吞吐率：223.86req/s] [内存消耗：136.05kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '1f731bde41933ae520de08215be66d67',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ',' or ')'[/webdata/api/application/index/service/ComprehensionSer.php:49]
+---------------------------------------------------------------
+[ 2017-10-23T10:55:28+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.002272s][吞吐率：440.12req/s] [内存消耗：136.05kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '1f731bde41933ae520de08215be66d67',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ',' or ')'[/webdata/api/application/index/service/ComprehensionSer.php:49]
+---------------------------------------------------------------
+[ 2017-10-23T10:56:20+08:00 ] 104.238.148.249 157.119.232.9 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.770787s][吞吐率：0.56req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c73b15393f241dfbd1c4901d20df8233',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:57:54+08:00 ] 104.238.148.249 157.119.232.11 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.517247s][吞吐率：0.66req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '84bed2e00a92f901553b6ad899f2dd6b',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.15',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:58:04+08:00 ] 104.238.148.249 157.119.232.7 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.490857s][吞吐率：0.67req/s] [内存消耗：150.51kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'd21e50d36abdb86dd7f09079cc63c139',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T10:59:28+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.050091s][吞吐率：0.95req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'af210d1e0708edd32a81714e74987a7a',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T11:00:12+08:00 ] 104.238.148.249 157.119.232.8 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.295024s][吞吐率：0.77req/s] [内存消耗：273.17kb] [文件加载：45]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'a79870dc185905afe23992ac1af7fe22',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002638s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `voice` [ RunTime:0.021861s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE8\xA6\x81\xE5\x8E\xBB...' for column 'work' at row 1[/webdata/api/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2017-10-23T11:00:14+08:00 ] 104.238.148.249 157.119.232.13 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.743594s][吞吐率：0.57req/s] [内存消耗：272.08kb] [文件加载：45]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'a79870dc185905afe23992ac1af7fe22',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `voice` [ RunTime:0.001053s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xE8\xA6\x81\xE5\x8E\xBB...' for column 'work' at row 1[/webdata/api/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2017-10-23T11:46:29+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：3.252045s][吞吐率：0.31req/s] [内存消耗：283.98kb] [文件加载：39]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'ae2a1ee53e1b17df220ea9cb8fbb6522',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `voice` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] INSERT INTO `voice` (`uid` , `date` , `oclock` , `work` , `create_time`) VALUES (1 , '2017-10-24' , '' , '要去西藏' , '2017-10-23 11:46') [ RunTime:0.002022s ]
+---------------------------------------------------------------
+[ 2017-10-23T11:49:14+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.092416s][吞吐率：0.92req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '69db5dc3bdae5520185f0480069171c6',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.250.74',
+  'x-real-ip' => '183.15.250.74',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.250.74',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T11:55:40+08:00 ] 104.238.148.249 157.119.232.11 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：3.035534s][吞吐率：0.33req/s] [内存消耗：283.59kb] [文件加载：39]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '633f2524f2e605b59be3b819cc3832d3',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.249.255',
+  'x-real-ip' => '183.15.249.255',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.249.255',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001301s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `voice` [ RunTime:0.001992s ]
+[ sql ] [ SQL ] INSERT INTO `voice` (`uid` , `date` , `work` , `create_time`) VALUES (1 , '2017-10-24' , '要去西藏' , '2017-10-23 11:55') [ RunTime:0.001737s ]
+---------------------------------------------------------------
+[ 2017-10-23T12:05:38+08:00 ] 104.238.148.249 157.119.232.9 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.004836s][吞吐率：206.78req/s] [内存消耗：136.05kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'd7bfb1d31385db017b8b46d161b11ca9',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.249.255',
+  'x-real-ip' => '183.15.249.255',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.249.255',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.15',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '<', expecting end of file[/webdata/api/application/index/service/ComprehensionSer.php:171]
+---------------------------------------------------------------
+[ 2017-10-23T12:05:39+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.002953s][吞吐率：338.63req/s] [内存消耗：136.05kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'd7bfb1d31385db017b8b46d161b11ca9',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.249.255',
+  'x-real-ip' => '183.15.249.255',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.249.255',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.15',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '<', expecting end of file[/webdata/api/application/index/service/ComprehensionSer.php:171]
+---------------------------------------------------------------
+[ 2017-10-23T12:06:17+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.810217s][吞吐率：0.55req/s] [内存消耗：151.60kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '8d90e686c1debc2c3ffdd587afd534ce',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.249.255',
+  'x-real-ip' => '183.15.249.255',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.249.255',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-23T12:07:00+08:00 ] 104.238.148.249 157.119.232.12 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：2.748102s][吞吐率：0.36req/s] [内存消耗：284.50kb] [文件加载：39]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'c15f6b6eee960933b5a461830c34fd81',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.249.255',
+  'x-real-ip' => '183.15.249.255',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.249.255',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001347s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `voice` [ RunTime:0.002129s ]
+[ sql ] [ SQL ] INSERT INTO `voice` (`uid` , `date` , `oclock` , `work` , `create_time`) VALUES (1 , '2017-10-24' , '' , '要去西藏' , '2017-10-23 12:06') [ RunTime:0.003209s ]
+---------------------------------------------------------------
+[ 2017-10-23T14:19:57+08:00 ] 104.238.148.249 157.119.232.9 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：3.790758s][吞吐率：0.26req/s] [内存消耗：283.59kb] [文件加载：39]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '2af6dabb14fba313195cd21b7c4d4f01',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.249.255',
+  'x-real-ip' => '183.15.249.255',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.249.255',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000995s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `voice` [ RunTime:0.001849s ]
+[ sql ] [ SQL ] INSERT INTO `voice` (`uid` , `date` , `work` , `create_time`) VALUES (1 , '2017-10-24' , '要去西藏' , '2017-10-23 14:19') [ RunTime:0.001331s ]

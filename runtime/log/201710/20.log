@@ -5961,3 +5961,1271 @@
 [ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
 [ info ] [ LOG ] INIT File
 [ error ] [0]致命错误: Using $this when not in object context[/webdata/api/application/index/service/UploadSer.php:22]
+---------------------------------------------------------------
+[ 2017-10-20T17:39:03+08:00 ] 104.238.148.249 157.119.232.5 POST /index/UserCon
+[ info ] api.ullone.com/index/UserCon [运行时间：0.376142s][吞吐率：2.66req/s] [内存消耗：312.38kb] [文件加载：38]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '15bb539e734495708c0e7f23924ce345',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'x-real-ip' => '183.15.248.240',
+  'pragma' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'content-length' => '37',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.248.240',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'x-forwarded-for' => '183.15.248.240',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013nK8Va1JQajt0WwiVa1lk3Va1nK8Vh',
+)
+[ info ] [ RUN ] app\index\controller\UserCon->index[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001419s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002035s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `openid` = 'odj3s0I1gN_WfdYzV5iQmYbybUfE' LIMIT 1 [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2017-10-20T17:39:08+08:00 ] 104.238.148.249 157.119.232.10 POST /index/VoiceCon?isLogin=070367c553221935
+[ info ] api.ullone.com/index/VoiceCon?isLogin=070367c553221935 [运行时间：0.002384s][吞吐率：419.43req/s] [内存消耗：165.17kb] [文件加载：30]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '96bd52f228053423a310fae40167f95a',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.15',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '25812',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------213314581441380585997979',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.15',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '070367c553221935',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:39:32+08:00 ] 104.238.148.249 157.119.232.11 POST /index/UserCon
+[ info ] api.ullone.com/index/UserCon [运行时间：0.394651s][吞吐率：2.53req/s] [内存消耗：312.38kb] [文件加载：38]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '9b9f38e7af5a2e88afa8451f2a482dac',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'x-real-ip' => '183.15.248.240',
+  'pragma' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'content-length' => '37',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.248.240',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.15',
+  'x-forwarded-for' => '183.15.248.240',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003DszYr0gU68c1KCEYr0alhYr0DszYI',
+)
+[ info ] [ RUN ] app\index\controller\UserCon->index[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `openid` = 'odj3s0I1gN_WfdYzV5iQmYbybUfE' LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2017-10-20T17:39:38+08:00 ] 104.238.148.249 157.119.232.10 POST /index/UserCon
+[ info ] api.ullone.com/index/UserCon [运行时间：0.512354s][吞吐率：1.95req/s] [内存消耗：312.38kb] [文件加载：38]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '3e192b03af49a57c192872d678a73371',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'wechatdevtools appservice port/9974',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'x-real-ip' => '183.15.248.240',
+  'pragma' => 'no-cache',
+  'origin' => 'http://127.0.0.1:9973',
+  'content-length' => '37',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'no-cache',
+  'client-ip' => '183.15.248.240',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'x-forwarded-for' => '183.15.248.240',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003T45Fa1h0EUR1VqdEa1IT8Fa1T45FE',
+)
+[ info ] [ RUN ] app\index\controller\UserCon->index[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000763s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `openid` = 'odj3s0I1gN_WfdYzV5iQmYbybUfE' LIMIT 1 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2017-10-20T17:42:31+08:00 ] 104.238.148.249 157.119.232.5 POST /index/VoiceCon?isLogin=1756154c73fefc1d
+[ info ] api.ullone.com/index/VoiceCon?isLogin=1756154c73fefc1d [运行时间：1.019814s][吞吐率：0.98req/s] [内存消耗：166.61kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '4e4ea94e7a0163f9edc6c7384b29f149',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'shanks/0.8.14',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '24692',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------588967549541204442785838',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '1756154c73fefc1d',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:42:56+08:00 ] 104.238.148.249 157.119.232.10 POST /
+[ info ] api.ullone.com/ [运行时间：0.003680s][吞吐率：271.74req/s] [内存消耗：134.01kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '2065a56cb805519518f48770262b5c1c',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '5363',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508492566912',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:44:11+08:00 ] 104.238.148.249 157.119.232.6 POST /index/UserCon
+[ info ] api.ullone.com/index/UserCon [运行时间：0.001727s][吞吐率：579.00req/s] [内存消耗：147.90kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b1cfffcc63e2d4ede21f398f89ba63c5',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'charset' => 'utf-8',
+  'x-real-ip' => '183.15.248.240',
+  'x-forwarded-for' => '183.15.248.240',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.248.240',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odj3s0I1gN_WfdYzV5iQmYbybUfE',
+)
+[ info ] [ RUN ] app\index\controller\UserCon->index[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:44:17+08:00 ] 104.238.148.249 157.119.232.12 POST /
+[ info ] api.ullone.com/ [运行时间：0.002484s][吞吐率：402.60req/s] [内存消耗：132.91kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '6e8389b1e4cd50c93dca41a16737e1d4',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '5119',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508492647819',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:44:58+08:00 ] 104.238.148.249 157.119.232.11 POST /
+[ info ] api.ullone.com/ [运行时间：0.002208s][吞吐率：452.90req/s] [内存消耗：132.91kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'a9a3bc060ef1ac90c8cc13f698546bf0',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '6967',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508492688816',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:47:13+08:00 ] 104.238.148.249 157.119.232.10 POST /
+[ info ] api.ullone.com/ [运行时间：0.003642s][吞吐率：274.59req/s] [内存消耗：132.91kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b5d38a16240afb081c4a4b0e5bcc6663',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '5837',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508492823972',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:48:02+08:00 ] 104.238.148.249 157.119.232.9 POST /index/UserCon
+[ info ] api.ullone.com/index/UserCon [运行时间：0.405607s][吞吐率：2.47req/s] [内存消耗：312.68kb] [文件加载：38]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'a860f61afa9ddc80dc6f375613f2b868',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'charset' => 'utf-8',
+  'x-real-ip' => '183.15.248.240',
+  'x-forwarded-for' => '183.15.248.240',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '37',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.248.240',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013BXFg30iipmF1KNhi30uFrg30BXFgZ',
+)
+[ info ] [ RUN ] app\index\controller\UserCon->index[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001519s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001850s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `openid` = 'odj3s0I1gN_WfdYzV5iQmYbybUfE' LIMIT 1 [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2017-10-20T17:48:10+08:00 ] 104.238.148.249 157.119.232.5 POST /index/VoiceCon?isLogin=6eabe74c6f810ba1
+[ info ] api.ullone.com/index/VoiceCon?isLogin=6eabe74c6f810ba1 [运行时间：0.167786s][吞吐率：5.96req/s] [内存消耗：166.39kb] [文件加载：31]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '0852c0e2fe6b92f3167192dd5d23c453',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '5740',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508492880993',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '6eabe74c6f810ba1',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:49:23+08:00 ] 104.238.148.249 157.119.232.5 POST /index/UserCon
+[ info ] api.ullone.com/index/UserCon [运行时间：0.387228s][吞吐率：2.58req/s] [内存消耗：312.68kb] [文件加载：38]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '5ac231565a9de0bc26128c9425249790',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'charset' => 'utf-8',
+  'x-real-ip' => '183.15.248.240',
+  'x-forwarded-for' => '183.15.248.240',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '37',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.248.240',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013Ib6hZ0UyYKY1AbrhZ0Ra0hZ0Ib6h8',
+)
+[ info ] [ RUN ] app\index\controller\UserCon->index[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001521s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001867s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `openid` = 'odj3s0I1gN_WfdYzV5iQmYbybUfE' LIMIT 1 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2017-10-20T17:49:30+08:00 ] 104.238.148.249 157.119.232.9 POST /index/VoiceCon?isLogin=143786a9168d77ad
+[ info ] api.ullone.com/index/VoiceCon?isLogin=143786a9168d77ad [运行时间：0.120830s][吞吐率：8.28req/s] [内存消耗：153.60kb] [文件加载：36]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '8c78aaf0fd6b6acb44108c7f23797790',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '5440',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508492960493',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '143786a9168d77ad',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Using $this when not in object context[/webdata/api/application/index/service/Voice2textSer.php:26]
+---------------------------------------------------------------
+[ 2017-10-20T17:57:18+08:00 ] 104.238.148.249 157.119.232.6 POST /index/UserCon
+[ info ] api.ullone.com/index/UserCon [运行时间：0.394977s][吞吐率：2.53req/s] [内存消耗：313.76kb] [文件加载：38]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '2ba2e25233817bb131d3f18d26ffe290',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'charset' => 'utf-8',
+  'x-real-ip' => '183.15.248.240',
+  'x-forwarded-for' => '183.15.248.240',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '37',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.248.240',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013gu3Fa0f1Ert1lpcIa0flREa0gu3FC',
+)
+[ info ] [ RUN ] app\index\controller\UserCon->index[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001307s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001750s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `openid` = 'odj3s0I1gN_WfdYzV5iQmYbybUfE' LIMIT 1 [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2017-10-20T17:57:29+08:00 ] 104.238.148.249 157.119.232.11 POST /index/VoiceCon?isLogin=4e7541a6f0b074d9
+[ info ] api.ullone.com/index/VoiceCon?isLogin=4e7541a6f0b074d9 [运行时间：2.406108s][吞吐率：0.42req/s] [内存消耗：166.28kb] [文件加载：32]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '9ea2c27d1b99247b7c1db8c889e32a1d',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '5130',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508493437499',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '4e7541a6f0b074d9',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:58:14+08:00 ] 104.238.148.249 157.119.232.6 POST /index/VoiceCon?isLogin=4e7541a6f0b074d9
+[ info ] api.ullone.com/index/VoiceCon?isLogin=4e7541a6f0b074d9 [运行时间：1.176934s][吞吐率：0.85req/s] [内存消耗：165.41kb] [文件加载：32]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b3d762664d8c89a8be2cb41c81186f3c',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '4638',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508493484108',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '4e7541a6f0b074d9',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:58:45+08:00 ] 104.238.148.249 157.119.232.11 POST /index/VoiceCon?isLogin=4e7541a6f0b074d9
+[ info ] api.ullone.com/index/VoiceCon?isLogin=4e7541a6f0b074d9 [运行时间：1.061740s][吞吐率：0.94req/s] [内存消耗：165.41kb] [文件加载：32]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '45644d8718e6d46f37e9e2d417ff0d43',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '4823',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508493515211',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '4e7541a6f0b074d9',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T17:59:12+08:00 ] 104.238.148.249 157.119.232.5 POST /index/VoiceCon?isLogin=4e7541a6f0b074d9
+[ info ] api.ullone.com/index/VoiceCon?isLogin=4e7541a6f0b074d9 [运行时间：1.133616s][吞吐率：0.88req/s] [内存消耗：154.29kb] [文件加载：38]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '5091d74992402c25b3deda207cc58cb2',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '8311',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508493542398',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '4e7541a6f0b074d9',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\service\ComposeSer' not found[/webdata/api/application/index/service/Voice2textSer.php:31]
+---------------------------------------------------------------
+[ 2017-10-20T18:01:27+08:00 ] 104.238.148.249 157.119.232.8 POST /index/VoiceCon?isLogin=4e7541a6f0b074d9
+[ info ] api.ullone.com/index/VoiceCon?isLogin=4e7541a6f0b074d9 [运行时间：1.146842s][吞吐率：0.87req/s] [内存消耗：156.96kb] [文件加载：39]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '44aaf9314810ec764a8a9a9ab92c035c',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '7849',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508493676778',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '4e7541a6f0b074d9',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 3 for app\index\service\Func::requestPost(), called in /webdata/api/application/index/service/Func.php on line 75 and defined[/webdata/api/application/index/service/Func.php:90]
+---------------------------------------------------------------
+[ 2017-10-20T18:05:20+08:00 ] 104.238.148.249 157.119.232.11 POST /index/VoiceCon?isLogin=4e7541a6f0b074d9
+[ info ] api.ullone.com/index/VoiceCon?isLogin=4e7541a6f0b074d9 [运行时间：1.050000s][吞吐率：0.95req/s] [内存消耗：156.20kb] [文件加载：39]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b4b0571d7c5425237b3a728951586ff9',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '7146',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508493909997',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '4e7541a6f0b074d9',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 3 for app\index\service\Func::requestPost(), called in /webdata/api/application/index/service/Func.php on line 75 and defined[/webdata/api/application/index/service/Func.php:90]
+---------------------------------------------------------------
+[ 2017-10-20T18:08:51+08:00 ] 104.238.148.249 157.119.232.5 POST /index/UserCon
+[ info ] api.ullone.com/index/UserCon [运行时间：0.363439s][吞吐率：2.75req/s] [内存消耗：312.68kb] [文件加载：38]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '5e5629cf71bdd0fdbd854790a2c3c8f9',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'charset' => 'utf-8',
+  'x-real-ip' => '183.15.248.240',
+  'x-forwarded-for' => '183.15.248.240',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '37',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.248.240',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013KUKWz1ChKNh06P9Zz1Lg4Xz1KUKWp',
+)
+[ info ] [ RUN ] app\index\controller\UserCon->index[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001403s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002064s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `openid` = 'odj3s0I1gN_WfdYzV5iQmYbybUfE' LIMIT 1 [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2017-10-20T18:09:05+08:00 ] 104.238.148.249 157.119.232.13 POST /index/VoiceCon?isLogin=1e2616651840e2a1
+[ info ] api.ullone.com/index/VoiceCon?isLogin=1e2616651840e2a1 [运行时间：1.556641s][吞吐率：0.64req/s] [内存消耗：165.41kb] [文件加载：32]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '4587c686c40947cf2f7a50e8a9dbbbd9',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '7631',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508494134691',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '1e2616651840e2a1',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T18:09:25+08:00 ] 104.238.148.249 157.119.232.5 POST /index/VoiceCon?isLogin=1e2616651840e2a1
+[ info ] api.ullone.com/index/VoiceCon?isLogin=1e2616651840e2a1 [运行时间：1.104916s][吞吐率：0.91req/s] [内存消耗：661.84kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '56ab3b05a8953634c0c5aeda3a8558d3',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '8337',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508494155719',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '1e2616651840e2a1',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T18:14:16+08:00 ] 104.238.148.249 157.119.232.9 POST /index/UserCon
+[ info ] api.ullone.com/index/UserCon [运行时间：0.350465s][吞吐率：2.85req/s] [内存消耗：313.76kb] [文件加载：38]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'cd166b2a3a4e82e938aa05a334369567',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'charset' => 'utf-8',
+  'x-real-ip' => '183.15.248.240',
+  'x-forwarded-for' => '183.15.248.240',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '37',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'client-ip' => '183.15.248.240',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003OFlEd1l3NYu0x6yFd1RpyEd1OFlEv',
+)
+[ info ] [ RUN ] app\index\controller\UserCon->index[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:dbname=airicheng;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001779s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `openid` = 'odj3s0I1gN_WfdYzV5iQmYbybUfE' LIMIT 1 [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[ 2017-10-20T18:14:27+08:00 ] 104.238.148.249 157.119.232.11 POST /index/VoiceCon?isLogin=166ddf922c567664
+[ info ] api.ullone.com/index/VoiceCon?isLogin=166ddf922c567664 [运行时间：1.184059s][吞吐率：0.84req/s] [内存消耗：165.41kb] [文件加载：32]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '24fce66b5ebe5ea69531b03a96fcb157',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '8818',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508494456817',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '166ddf922c567664',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T18:14:39+08:00 ] 104.238.148.249 157.119.232.7 POST /index/VoiceCon?isLogin=166ddf922c567664
+[ info ] api.ullone.com/index/VoiceCon?isLogin=166ddf922c567664 [运行时间：0.717621s][吞吐率：1.39req/s] [内存消耗：156.10kb] [文件加载：39]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'VoiceCon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '68427cc545b37ace9e1a639b0f324d25',
+  'x-edge-retry-times' => '-',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; M5s Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043602 Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'client-ip' => '183.15.248.240',
+  'content-length' => '3605',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://servicewechat.com/wx61c00f82c85f0036/0/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=1508494469741',
+  'accept' => '*/*',
+  'x-via' => 'shanks/0.8.14',
+  'host' => 'api.ullone.com',
+)
+[ info ] [ PARAM ] array (
+  'isLogin' => '166ddf922c567664',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ RUN ] app\index\controller\VoiceCon->index[ /webdata/api/application/index/controller/VoiceCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument[/webdata/api/application/index/service/Func.php:118]
+---------------------------------------------------------------
+[ 2017-10-20T18:17:55+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.003666s][吞吐率：272.78req/s] [内存消耗：140.41kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7b1b234ead301166f30120e058bf2771',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.248.240',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument[/webdata/api/application/index/service/Func.php:118]
+---------------------------------------------------------------
+[ 2017-10-20T18:17:56+08:00 ] 104.238.148.249 157.119.232.6 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：0.002055s][吞吐率：486.63req/s] [内存消耗：139.33kb] [文件加载：33]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7b1b234ead301166f30120e058bf2771',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.248.240',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument[/webdata/api/application/index/service/Func.php:118]
+---------------------------------------------------------------
+[ 2017-10-20T18:19:06+08:00 ] 104.238.148.249 157.119.232.6 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：2.229571s][吞吐率：0.45req/s] [内存消耗：149.49kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'b9964cfc1ceb235fa26892cfca107a13',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.248.240',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T18:20:05+08:00 ] 104.238.148.249 157.119.232.10 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.491892s][吞吐率：0.67req/s] [内存消耗：149.41kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '7536d5b56bf638ecdc707be6258d974a',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.248.240',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T18:21:07+08:00 ] 104.238.148.249 157.119.232.12 GET /download/59e9cdd4a267e.mp3
+[ info ] api.ullone.com/download/59e9cdd4a267e.mp3 [运行时间：0.002670s][吞吐率：374.52req/s] [内存消耗：135.15kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => '59e9cdd4a267e.mp3',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'a07c82e41eb3ceb533ad151647ce81d2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'client-ip' => '183.15.248.240',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T18:21:20+08:00 ] 104.238.148.249 157.119.232.13 GET /download/59e9cdd4a267e.mp3
+[ info ] api.ullone.com/download/59e9cdd4a267e.mp3 [运行时间：0.002096s][吞吐率：477.11req/s] [内存消耗：135.69kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => '59e9cdd4a267e.mp3',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '4617e02535f91baa970cfb946f1b6e7a',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.248.240',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T18:21:45+08:00 ] 104.238.148.249 157.119.232.10 GET /download/59e9cdd4a267e.mp3
+[ info ] api.ullone.com/download/59e9cdd4a267e.mp3 [运行时间：0.002744s][吞吐率：364.44req/s] [内存消耗：135.69kb] [文件加载：29]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'download',
+    1 => '59e9cdd4a267e.mp3',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'bd0894cec1e1ab5b6a882222b8ddbdfc',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.248.240',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T18:28:19+08:00 ] 104.238.148.249 157.119.232.7 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.726839s][吞吐率：0.58req/s] [内存消耗：148.84kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => '117a0eae9c9a54e39e0922426e520e00',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.248.240',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T18:30:17+08:00 ] 104.238.148.249 157.119.232.6 GET /index/UserCon/test
+[ info ] api.ullone.com/index/UserCon/test [运行时间：1.461110s][吞吐率：0.68req/s] [内存消耗：148.26kb] [文件加载：27]
+[ info ] [ LANG ] /webdata/api/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'UserCon',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-request-id' => 'ecea1180fcd7c47f6b225c754741e746',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-forwarded-for' => '183.15.248.240',
+  'x-real-ip' => '183.15.248.240',
+  'x-edge-retry-times' => '-',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cache-control' => 'max-age=0',
+  'client-ip' => '183.15.248.240',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'x-via' => 'shanks/0.8.14',
+  'cookie' => 'pgv_pvi=7293854720',
+  'host' => 'api.ullone.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UserCon->test[ /webdata/api/application/index/controller/UserCon.php ]
+[ info ] [ LOG ] INIT File
