@@ -33,7 +33,7 @@ class ComprehensionSer {
       'work' => '',
       'time' => ''
     );
-    var_dump($data);die;
+    // var_dump($data);die;
     for($i = 0;$i < count($data);$i ++) {
       if($data[$i]['type'] === 'user_when') $res['time'] = $data[$i]['normalized_word'];
       elseif($data[$i]['type'] === 'user_event') $res['work'] .= $data[$i]['normalized_word'];
@@ -45,7 +45,8 @@ class ComprehensionSer {
       } elseif(strlen($res['time'] === 10)) $time   = $res['time'];
       elseif(strlen($res['time'] === 8)) $oclock = $res['time'];
     }
-
+    var_dump($time);
+    var_dump($oclock);die;
     if(empty(Cache::get('vid'.$uid))) {
       //第一次会话
       if(isset($time) && isset($oclock) && !empty($res['work'])) {
