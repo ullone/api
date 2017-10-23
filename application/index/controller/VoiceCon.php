@@ -47,6 +47,7 @@ class VoiceCon {
     $data = array();
     $data['dir']  = isset($_POST['dir']) ? $_POST['dir'] : null;
     $data['name'] = isset($_POST['name']) ? $_POST['name'] : null;
+    var_dump($data);die;
     $file = UploadSer::silkToWav($data['dir'], $data['name']);
     $text = Voice2textSer::voiceToText($file);
     $data = ComprehensionSer::semanticComprehension($text, $this->userInfo['uid']);
