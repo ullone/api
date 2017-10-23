@@ -19,7 +19,7 @@ class ComprehensionSer {
     $res    = json_decode($res, true);
     $result = empty($res['result']['qu_res']['intent_candidates']) ? null : $res['result']['qu_res']['intent_candidates'][0]['slots'];
     if($result === null) {
-      $msg = $res['result']['action_list'][0]['say'];
+      $msg  = $res['result']['action_list'][0]['say'];
       $file = ComposeSer::voiceCompose($msg.',请重新录制');
       Cache::clear('vid'.$uid);
       Func::callBack(101, '文本转义失败', $file);
