@@ -43,7 +43,10 @@ class VoiceCon {
     // $this->silkToText($res);
   }
 
-  private function silkToText($data) {
+  public function silkToText() {
+    $data = array();
+    $data['dir']  = isset($_POST['dir']) ? $_POST['dir'] : null;
+    $data['name'] = isset($_POST['name']) ? $_POST['name'] : null;
     $file = UploadSer::silkToWav($data['dir'], $data['name']);
     $text = Voice2textSer::voiceToText($file);
     $data = ComprehensionSer::semanticComprehension($text, $this->userInfo['uid']);
