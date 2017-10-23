@@ -38,11 +38,12 @@ class ComprehensionSer {
       if($data[$i]['type'] === 'user_when') $res['time'] = $data[$i]['normalized_word'];
       elseif($data[$i]['type'] === 'user_event') $res['work'] .= $data[$i]['normalized_word'];
     }
+    var_dump($res);die;
     if(!empty($res['time'])) {
       if(strlen($res['time']) === 19) {
         $time   = strstr($res['time'], '|', true);
         $oclock = substr($res['time'], strpos($res['time'], '|') + 1, 5);
-      } elseif(strlen($res['time'] === 10)) $time   = $res['time'];
+      } elseif(strlen($res['time'] === 10)) $time = $res['time'];
       elseif(strlen($res['time'] === 8)) $oclock = $res['time'];
     }
     var_dump($time);
