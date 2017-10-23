@@ -5,7 +5,7 @@ namespace app\index\controller;
 use \think\Cache;
 use app\index\service\UserSer;
 use app\index\service\ComposeSer;
-use app\index\service\Comprehensions;
+use app\index\service\ComprehensionSer;
 
 class UserCon {
 
