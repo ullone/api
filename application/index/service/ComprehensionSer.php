@@ -134,7 +134,7 @@ class ComprehensionSer {
       if(isset($time)) Voice::update(array('date' => $time), $vid);
       if(isset($oclock)) Voice::update(array('oclock' => $oclock), $vid);
       if(!empty($res['work'])) Voice::update(array('work' => $res['work']), $vid);
-      $data = Voice::find(array('vid' => $vid));
+      $data = Voice::find(array('id' => $vid));
       if(($data['work'] != 0) && ($data['date'] != 0) && ($data['oclock'] !=0)) {
         //补充完成
         $file = ComposeSer::voiceCompose('好的，已经为您记录');
