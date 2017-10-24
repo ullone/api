@@ -14,4 +14,10 @@ class Voice {
              ->where($data)
              ->find();
   }
+
+  public static function update($data, $vid = 1) {
+    return Db::name('voice')
+             ->where('id', $vid)
+             ->update($data);
+  }
 }
