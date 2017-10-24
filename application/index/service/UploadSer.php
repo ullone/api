@@ -59,13 +59,13 @@ class UploadSer{
     public static function silkToWav($filePath, $fileName) {
       $tmpPath = '/webdata/api/upload/silk-v3-decoder-master/';
       $file    = $filePath.'/'.$fileName;
-      if(!is_file($file)) Func::callBack(105, '文件不存在，请重新上传');
+      if(!is_file($file)) Func::callBack('105', '文件不存在，请重新上传');
       $cmd     = $tmpPath.'converter.sh '.$file.' wav';
       exec($cmd, $output);
       $wavName = basename($fileName, ".silk");
       $wavName = $wavName.'.wav';
       $file    = $filePath.'/'.$wavName;
-      if(!is_file($file)) Func::callBack(105, '文件转码失败');
+      if(!is_file($file)) Func::callBack('105', '文件转码失败');
       $name    = date("YmdHis").'.wav';
       $cmd     = "ffmpeg -f s16le -ar 24000 -i $file -f wav -ar 16000 -b:a 16 -ac 1 $filePath/".$name;
       exec($cmd, $output);

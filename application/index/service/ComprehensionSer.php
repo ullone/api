@@ -22,7 +22,7 @@ class ComprehensionSer {
       $msg  = $res['result']['action_list'][0]['say'];
       $file = ComposeSer::voiceCompose($msg.',请重新录制');
       Cache::clear('vid'.$uid);
-      Func::callBack(101, '文本转义失败', $file);
+      Func::callBack('101', '文本转义失败', $file);
     }
     return $result;
   }
@@ -57,7 +57,7 @@ class ComprehensionSer {
           'create_time' => date('Y-m-d H:i')
         ));
         $file = ComposeSer::voiceCompose('好的，已经为您记录');
-        Func::callBack(0, '记录成功', $file);
+        Func::callBack('0', '记录成功', $file);
       }
       if(empty($res['work'])) {
         //无事件
@@ -71,7 +71,7 @@ class ComprehensionSer {
           ));
           Cache::set('vid'.$uid, $vid, 120);
           $file = ComposeSer::voiceCompose('好的，什么事情呢');
-          Func::callBack(0, '记录成功', $file);
+          Func::callBack('0', '记录成功', $file);
         } elseif(!isset($oclock) && isset($time)) {
           //无时间点
           $vid = Voice::addOne(array(
@@ -81,7 +81,7 @@ class ComprehensionSer {
           ));
           Cache::set('vid'.$uid, $vid, 120);
           $file = ComposeSer::voiceCompose('好的，什么事情,具体几点呢');
-          Func::callBack(0, '记录成功', $file);
+          Func::callBack('0', '记录成功', $file);
         } else {
           //仅无事件
           $vid = Voice::addOne(array(
@@ -104,7 +104,7 @@ class ComprehensionSer {
           ));
           $file = ComposeSer::voiceCompose('好的，具体几点呢');
           Cache::set('vid'.$uid, $vid, 120);
-          Func::callBack(0, '记录成功', $file);
+          Func::callBack('0', '记录成功', $file);
         } elseif(!isset($time) && isset($oclock)) {
           //未设置日期
           $vid = Voice::addOne(array(
@@ -115,7 +115,7 @@ class ComprehensionSer {
             'create_time' => date('Y-m-d H:i:s')
           ));
           $file = ComposeSer::voiceCompose('好的，已经为您记录');
-          Func::callBack(0, '记录成功', $file);
+          Func::callBack('0', '记录成功', $file);
         } else {
           //未设置时间
           $vid = Voice::addOne(array(
@@ -125,7 +125,7 @@ class ComprehensionSer {
           ));
           $file = ComposeSer::voiceCompose('好的，具体哪一天，几点呢');
           Cache::set('vid'.$uid, $vid, 120);
-          Func::callBack(0, '记录成功', $file);
+          Func::callBack('0', '记录成功', $file);
         }
       }
     } else {
@@ -139,27 +139,27 @@ class ComprehensionSer {
         //补充完成
         $file = ComposeSer::voiceCompose('好的，已经为您记录');
         Cache::clear('vid'.$uid);
-        Func::callBack(0, '记录成功', $file);
+        Func::callBack('0', '记录成功', $file);
       }
       if($data['work'] == 0) {
         if($data['oclock'] == 0) {
           $file = ComposeSer::voiceCompose('好的，什么事，具体几点呢');
           Cache::set('vid'.$uid, $vid, 120);//更新cache时间
-          Func::callBack(0, '记录成功', $file);
+          Func::callBack('0', '记录成功', $file);
         } else {
           $file = ComposeSer::voiceCompose('好的，什么事呢');
           Cache::set('vid'.$uid, $vid, 120);
-          Func::callBack(0, '记录成功', $file);
+          Func::callBack('0', '记录成功', $file);
         }
       } else {
         if($data['oclock'] == 0 && $data['date'] != 0) {
           $file = ComposeSer::voiceCompose('好的，具体几点呢');
           Cache::set('vid'.$uid, $vid, 120);
-          Func::callBack(0, '记录成功', $file);
+          Func::callBack('0', '记录成功', $file);
         } else {
           $file = ComposeSer::voiceCompose('好的，请说出具体时间，哪一天，几点');
           Cache::set('vid'.$uid, $vid, 120);
-          Func::callBack(0, '记录成功', $file);
+          Func::callBack('0', '记录成功', $file);
         }
       }
     }
