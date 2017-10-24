@@ -135,7 +135,7 @@ class ComprehensionSer {
       if(isset($oclock)) Voice::update(array('oclock' => $oclock), $vid);
       if(!empty($res['work'])) Voice::update(array('work' => $res['work']), $vid);
       $data = Voice::find(array('id' => $vid));
-      if($data['word'] == 0) var_dump($data);
+      if($data['work'] == 0) var_dump($data);
       die;
       if(($data['work'] != 0) && ($data['date'] != 0) && ($data['oclock'] !=0)) {
         //补充完成
