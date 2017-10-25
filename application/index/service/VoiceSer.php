@@ -3,6 +3,7 @@
 namespace app\index\service;
 
 use app\index\service\Func;
+use app\index\model\Voice;
 
 class VoiceSer {
 
