@@ -64,10 +64,11 @@ class ComprehensionSer {
         if(!isset($time) && isset($oclock)) {
           //无日期
           $vid = Voice::addOne(array(
-            'uid' => $uid,
-            'date' => date('Y-m-d'),
-            'oclock' => $oclock,
-            'create_time' => date('Y-m-d H:i')
+            'uid'         => $uid,
+            'date'        => date('Y-m-d'),
+            'oclock'      => $oclock,
+            'create_time' => date('Y-m-d H:i'),
+            'del'         => 1
           ));
           Cache::set('vid'.$uid, $vid, 120);
           $file = ComposeSer::voiceCompose('好的，什么事情呢');
@@ -77,6 +78,7 @@ class ComprehensionSer {
           $vid = Voice::addOne(array(
             'uid'  => $uid,
             'date' => $time,
+            'del'  => 1,
             'create_time' => date('Y-m-d H:i')
           ));
           Cache::set('vid'.$uid, $vid, 120);
@@ -88,6 +90,7 @@ class ComprehensionSer {
             'uid'    => $uid,
             'date'   => $time,
             'oclock' => $oclock,
+            'del'    => 1,
             'create_time' => date('Y-m-d H:i')
           ));
           Cache::set('vid'.$uid, $vid, 120);
@@ -97,9 +100,10 @@ class ComprehensionSer {
         if(isset($time) && !isset($oclock)) {
           //未设置时间点
           $vid = Voice::addOne(array(
-            'uid' => $uid,
+            'uid'  => $uid,
             'date' => $time,
-            'work'   => $res['work'],
+            'work' => $res['work'],
+            'del'  => 1,
             'create_time' => date('Y-m-d H:i')
           ));
           $file = ComposeSer::voiceCompose('好的，具体几点呢');
@@ -119,8 +123,9 @@ class ComprehensionSer {
         } else {
           //未设置时间
           $vid = Voice::addOne(array(
-            'uid' => $uid,
-            'work'   => $res['work'],
+            'uid'  => $uid,
+            'work' => $res['work'],
+            'del'  => 1,
             'create_time' => date('Y-m-d H:i:s')
           ));
           $file = ComposeSer::voiceCompose('好的，具体哪一天，几点呢');
@@ -137,6 +142,7 @@ class ComprehensionSer {
       $data = Voice::find(array('id' => $vid));
       if(($data['work'] !== '0') && ($data['date'] !== '0') && ($data['oclock'] !== '0')) {
         //补充完成
+        Voice::update(array('del' => 0, $vid));
         $file = ComposeSer::voiceCompose('好的，已经为您记录');
         Cache::clear('vid'.$uid);
         Func::callBack('0', '记录成功', $file);

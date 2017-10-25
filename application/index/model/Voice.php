@@ -20,4 +20,12 @@ class Voice {
              ->where('id', $vid)
              ->update($data);
   }
+
+  public static function select($uid = 1, $start, $end) {
+    return Db::name('voice')
+             ->where('uid', $uid)
+             ->where('date', 'between', "$start, $end")
+             ->where('del', 0)
+             ->select();
+  }
 }

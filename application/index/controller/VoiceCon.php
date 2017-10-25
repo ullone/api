@@ -27,6 +27,10 @@ class VoiceCon {
     // $this->silkToText($data);
   }
 
+  public function getData() {
+    VoiceCon::getData($this->userInfo['uid']);
+  }
+
   private function upload() {
     $data = array(
       'upload_name'       => isset($_FILES['file']['name']) ? $_FILES['file']['name'] : null, //取得上传文件名
