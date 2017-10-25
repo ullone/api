@@ -24,7 +24,7 @@ class Voice {
   public static function select($uid = 1, $start, $end) {
     return Db::name('voice')
              ->where('uid', $uid)
-             ->where('date', 'between', "$start, $end")
+            //  ->where('date', 'between', "$start, $end")
              ->where('del', 0)
              ->select();
   }
