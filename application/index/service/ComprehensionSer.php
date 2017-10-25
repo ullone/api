@@ -142,7 +142,7 @@ class ComprehensionSer {
       $data = Voice::find(array('id' => $vid));
       if(($data['work'] !== '0') && ($data['date'] !== '0') && ($data['oclock'] !== '0')) {
         //补充完成
-        Voice::update(array('del' => 0, $vid));
+        Voice::update(array('del' => 0), $vid);
         $file = ComposeSer::voiceCompose('好的，已经为您记录');
         Cache::clear('vid'.$uid);
         Func::callBack('0', '记录成功', $file);
