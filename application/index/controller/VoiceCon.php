@@ -5,8 +5,9 @@ namespace app\index\controller;
 use app\index\service\UploadSer;
 use app\index\service\ComposeSer;
 use app\index\service\ComprehensionSer;
-use app\index\service\Func;
 use app\index\service\Voice2textSer;
+use app\index\service\VoiceSer;
+use app\index\service\Func;
 use app\index\controller\UserCon;
 use \think\Cookie;
 
@@ -28,7 +29,7 @@ class VoiceCon {
   }
 
   public function getData() {
-    VoiceCon::getData($this->userInfo['uid']);
+    VoiceSer::getData($this->userInfo['uid']);
   }
 
   private function upload() {
