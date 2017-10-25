@@ -6,6 +6,7 @@ use \think\Cache;
 use app\index\service\UserSer;
 use app\index\service\ComposeSer;
 use app\index\service\ComprehensionSer;
+use app\index\service\Func;
 
 class UserCon {
 
