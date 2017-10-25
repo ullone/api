@@ -26,10 +26,4 @@ class UserCon {
     else Func::callBack('0', '登陆成功');
   }
 
-  public function test() {
-    // header('Content-type: audio/mp3');
-    $result = ComprehensionSer::semanticComprehension('明天我要去西藏');
-    $file   = ComprehensionSer::reply($result);
-    var_dump($file);die;
-  }
 }
