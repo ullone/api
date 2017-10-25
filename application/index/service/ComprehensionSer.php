@@ -21,7 +21,7 @@ class ComprehensionSer {
     if($result === null) {
       $msg  = $res['result']['action_list'][0]['say'];
       $file = ComposeSer::voiceCompose($msg.',请重新录制');
-      Cache::clear('vid'.$uid);
+      Cache::rm('vid'.$uid);
       Func::callBack('101', '文本转义失败', $file);
     }
     return $result;
@@ -120,7 +120,7 @@ class ComprehensionSer {
             'create_time' => date('Y-m-d H:i:s')
           ));
           $file = ComposeSer::voiceCompose('好的，已经为您记录');
-          Cache::clear('vid'.$uid);
+          Cache::rm('vid'.$uid);
           Func::callBack('0', '记录成功', $file);
         } else {
           //未设置时间
@@ -146,7 +146,7 @@ class ComprehensionSer {
         //补充完成
         Voice::update(array('del' => 0), $vid);
         $file = ComposeSer::voiceCompose('好的，已经为您记录');
-        Cache::clear('vid'.$uid);
+        Cache::rm('vid'.$uid);
         Func::callBack('0', '记录成功', $file);
       }
       if($data['work'] === '0') {
