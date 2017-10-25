@@ -25,6 +25,7 @@ class Voice {
     return Db::name('voice')
              ->where('uid', $uid)
              ->where('date', '>=', $start)
+             ->where('date', '<', $end)
              ->where('del', 0)
              ->select();
   }
