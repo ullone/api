@@ -107,7 +107,7 @@ class ComprehensionSer {
             'del'  => 1,
             'create_time' => date('Y-m-d H:i')
           ));
-          $file = ComposeSer::voiceCompose('好的，具体几点呢');
+          $file = ComposeSer::voiceCompose('好的，具体是几点呢');
           Cache::set('vid'.$uid, $vid, 120);
           Func::callBack('0', '请继续录制', $file);
         } elseif(!isset($time) && isset($oclock)) {
@@ -145,8 +145,9 @@ class ComprehensionSer {
       if(($data['work'] !== '0') && ($data['date'] !== '0') && ($data['oclock'] !== '0')) {
         //补充完成
         Voice::update(array('del' => 0), $vid);
-        $file = ComposeSer::voiceCompose('好的，已经为您记录');
         Cache::clear('vid'.$uid);
+        $vid = isset(Cache::get('vid'.$uid)) ? Cache::get('vid'.$uid) : '空';
+        $file = ComposeSer::voiceCompose("好的，已经为您记录了$vid");
         Func::callBack('0', '记录成功', $file);
       }
       if($data['work'] === '0') {
