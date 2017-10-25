@@ -19,6 +19,12 @@ class UserCon {
     UserSer::login($code);
   }
 
+  public function confirmLogin() {
+    $isLogin = isset($_GET['isLogin']) ? $_GET['isLogin'] : null;
+    if(empty(Cache::get($isLogin))) Func::callBack('401', '登陆已过期');
+    else Func::callBack('0', '登陆成功');
+  }
+
   public function test() {
     // header('Content-type: audio/mp3');
     $result = ComprehensionSer::semanticComprehension('明天我要去西藏');
